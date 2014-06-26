@@ -8,3 +8,8 @@ p {
 	font-size: 15px;
 	line-height: 23px;
 }
+#container {
+	max-width: 900px;
+	padding-top: 120px;
+	margin: auto;
+}
