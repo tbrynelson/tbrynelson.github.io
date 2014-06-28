@@ -8,6 +8,17 @@ p {
 	font-size: 15px;
 	line-height: 23px;
 }
+#nav {
+	border-bottom: 1px solid #dddddd;
+	background-color: #809494;
+	position: fixed;
+	width: 50%;
+	z-index: 10;
+	padding: 10px;
+	text-align: center;
+	font-weight: 700;
+
+}
 #container {
 	max-width: 900px;
 	padding-top: 60px;
