@@ -13,3 +13,10 @@ p {
 	padding-top: 60px;
 	margin: auto;
 }
+#about {
+	max-width: 605px;
+	padding-bottom: 40px;
+	padding-top: 15px;
+	margin: auto;
+	text-align: center;
+}
