@@ -2,6 +2,12 @@ a {
 	color: #2F5868;
 	text-decoration: none;
 }
+a:hover {
+	color: ##14252C;
+	text-decoration: none;
+	-webkit-transition: all 400ms ease;
+	transition: width 2px;
+}
 p {
 	font-family: 'Source Serif Pro', serif;
 	font-weight: 300;
