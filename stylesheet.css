@@ -14,10 +14,10 @@ p {
 	font-size: 15px;
 	line-height: 23px;
 }
-#nav {
+#nav p {
 	-webkit-text-stroke: 1px black;
 	color: white;
-	word-spacing: 20px;
+	border-spacing: ;
 	font-size: 400px;
 	text-shadow:
 		-1px -1px 0 #000
