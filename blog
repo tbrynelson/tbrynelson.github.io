@@ -9,9 +9,9 @@
 <body>
 	<div id="nav">
 		<p>
-			<a class="active" href="index.html">Home.</a>
-			Articles.
-			Blog.
+			<a href="index.html">Home.</a>
+			<a href="articles.html">Articles.</a>
+			<a href="blog.html">Blog.</a>
 		</p>
 	</div>
 </body>
