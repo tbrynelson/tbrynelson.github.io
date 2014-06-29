@@ -17,7 +17,7 @@ p {
 #nav p {
 	-webkit-text-stroke: 1px black;
 	color: white;
-	border: black;
+	outline-color: black;
 	border-spacing: 10px;
 	font-size: 50px;
 	font-family: 'Alfa Slab One';
@@ -29,7 +29,7 @@ p {
 }
 #nav a {
 	color: white;
-	border: black;
+	border-color: black;
 }
 #nav a:hover {
 	color: #14252C;
