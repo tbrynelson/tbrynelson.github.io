@@ -17,10 +17,10 @@ p {
 #nav p {
 	color: white;
 	text-shadow:
-		-1px -1px 0 #000000
-		1px -1px 0 #000000
-		-1px 1px 0 #000000
-		1px 1px 0 #000000;
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
 	font-size: 50px;
 	font-family: 'Alfa Slab One';
 	width: 100%;
@@ -31,10 +31,10 @@ p {
 #nav a {
 	color: white;
 	text-shadow:
-		-1px -1px 0 #000000
-		1px -1px 0 #000000
-		-1px 1px 0 #000000
-		1px 1px 0 #000000;
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
 }
 #nav a:hover {
 	color: #14252C;
