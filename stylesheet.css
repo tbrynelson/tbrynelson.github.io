@@ -23,6 +23,7 @@ p {
 		1px 1px 0 #000;
 	font-size: 50px;
 	font-family: 'Alfa Slab One';
+	letter-spacing: 5px;
 	width: 100%;
 	padding: 20px;
 	text-align: center;
@@ -37,7 +38,7 @@ p {
 		1px 1px 0 #000;
 }
 #nav a:hover {
-	color: #14252C;
+	color: #000000;
 	text-decoration: none;
 	transition: all 400ms ease;
 }
