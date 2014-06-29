@@ -3,7 +3,7 @@ a {
 	text-decoration: none;
 }
 a:hover {
-	color: ##14252C;
+	color: #14252C;
 	text-decoration: none;
 	-webkit-transition: all 400ms ease;
 	transition: width 2px;
@@ -30,7 +30,11 @@ p {
 	padding: 20px;
 	text-align: center;
 	font-weight: 700;
-
+}
+#nav a:hover {
+	color: #14252C;
+	text-decoration: none;
+	transition: all 400ms ease;
 }
 #container {
 	max-width: 900px;
