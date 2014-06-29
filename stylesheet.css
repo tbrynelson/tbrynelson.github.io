@@ -6,7 +6,7 @@ a:hover {
 	color: #14252C;
 	text-decoration: none;
 	-webkit-transition: all 400ms ease;
-	transition: width 2px;
+	transition: width 10px;
 }
 p {
 	font-family: 'Source Serif Pro', serif;
@@ -30,6 +30,9 @@ p {
 	padding: 20px;
 	text-align: center;
 	font-weight: 700;
+}
+#nav a {
+	color: white;
 }
 #nav a:hover {
 	color: #14252C;
