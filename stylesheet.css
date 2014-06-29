@@ -17,7 +17,7 @@ p {
 #nav p {
 	-webkit-text-stroke: 1px black;
 	color: white;
-	border-spacing: ;
+	border-spacing: 10px;
 	font-size: 50px;
 	text-shadow:
 		-1px -1px 0 #000
