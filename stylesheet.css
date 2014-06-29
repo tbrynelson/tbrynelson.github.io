@@ -15,12 +15,17 @@ p {
 	line-height: 23px;
 }
 #nav {
-	border-bottom: 1px solid #dddddd;
-	background-color: ##14252C;
+	-webkit-text-stroke: 1px black;
+	color: white:
+	text-shadow:
+		-1px -1px 0 #000
+		1px -1px 0 #000
+		-1px 1px 0 #000
+		1px 1px 0 #000;
+	font-family: 'Changa One';
 	position: fixed;
 	width: 100%;
 	z-index: 10;
-	padding: 0px;
 	text-align: center;
 	font-weight: 700;
 
