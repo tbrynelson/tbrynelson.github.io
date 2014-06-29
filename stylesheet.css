@@ -15,9 +15,12 @@ p {
 	line-height: 23px;
 }
 #nav p {
-	-webkit-text-stroke: 1px black;
 	color: white;
-	text-outline: 2px 2px #000000;
+	text-shadow:
+		-1px -1px 0 black
+		1px -1px 0 black
+		-1px 1px 0 black
+		1px 1px 0 black;
 	border-spacing: 10px;
 	font-size: 50px;
 	font-family: 'Alfa Slab One';
@@ -29,7 +32,11 @@ p {
 }
 #nav a {
 	color: white;
-	text-outline: 2px 2px #000000;
+	text-shadow:
+		-1px -1px 0 black
+		1px -1px 0 black
+		-1px 1px 0 black
+		1px 1px 0 black;
 }
 #nav a:hover {
 	color: #14252C;
