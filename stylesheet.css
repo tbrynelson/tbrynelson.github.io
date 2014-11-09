@@ -4,6 +4,7 @@
 	height: 65px;
 	background: white;
 	position: fixed;
+	z-index: 1;
 }
 #nav p {
 	top: 5px;
