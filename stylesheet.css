@@ -8,14 +8,13 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     background: transparent;
 }
 .leftmast {
+	position:fixed;
 	border-right: 1px solid black;
 }
 #nav {
 	position:fixed;
-	top: 150px;
-	left: 50px;
 	z-index: 1;
-	width: 150px;
+	width: 160px;
 	height:100%;
 	background: white;
 	position: fixed;
@@ -33,7 +32,8 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	background: url(/imgs/headshot.jpg);
 }
 #nav ul {
-	top: 0px
+	top: 150px;
+	left: 50px;
 	list-style-type: none;
 }
 #nav li {
