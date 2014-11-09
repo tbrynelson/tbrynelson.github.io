@@ -8,7 +8,9 @@
 	z-index: 1;
 }
 #nav ul {
-	top: 5px;
+	top: 0px
+}
+#nav li {
 	font-color: gray;
 	text-decoration: none;
 	-webkit-transition: all 400ms ease;
