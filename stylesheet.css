@@ -53,6 +53,11 @@ div.images {
 	float: left;
 	text-align: center;
 }
+div.images img {
+	display: inline;
+	margin: 5px;
+	border: 1px solid black;
+}
 div.desc {
 	text-align: center;
 	width: 120px;
