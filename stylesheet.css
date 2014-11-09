@@ -8,6 +8,7 @@
 	background: white;
 	position: fixed;
 	z-index: 1;
+	border-right: 1px solid black;
 }
 #nav ul {
 	top: 0px
@@ -16,7 +17,7 @@
 	font-color: gray;
 	text-decoration: none;
 	-webkit-transition: all 400ms ease;
-	font-size: 25px;
+	font-size: 18px;
 	font-family: 'Ultra';
 	letter-spacing: 1px;
 }
