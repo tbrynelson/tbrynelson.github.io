@@ -1,14 +1,10 @@
-#nav-cont {
-	width: 100%;
-	position: fixed;
-	top: 0px;
-}
 #nav {
+	width: 100%;
 	height: 70px;
 	background: white;
 	position: fixed;
 	max-width: 975px;
-	margin: auto;
+	margin: 80px auto;
 }
 a {
 	color: #2F5868;
@@ -49,7 +45,6 @@ p {
 #container {
 	max-width: 975px;
 	background: white;
-	height: 2000px;
 	margin: 80px auto;
 }
 #about {
