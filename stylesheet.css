@@ -54,6 +54,7 @@ div.clips {
 	text-align: center;
 	height: auto;
 	width: auto;
+	display: inline;
 }
 div.clips img {
 	opacity: 0.4;
