@@ -61,8 +61,8 @@ div.images img {
 	display: inline;
 	text-align: center;
 	height: 100px;
-	width: 100%;
-	padding: 20px;
+	width: auto;
+	padding: 1px;
 }
 div.images img:hover {
 	opacity: 1.0;
