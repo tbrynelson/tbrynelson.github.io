@@ -18,6 +18,8 @@ p {
 	position:fixed;
 	width: 100%;
 	margin:0px auto;
+	background: white;
+
 }
 #nav p {
 	color: gray;
@@ -27,7 +29,7 @@ p {
 	font-family: 'Ultra';
 	letter-spacing: 1px;
 	width: 100%;
-	padding: 20px;
+	padding: 10px;
 	text-align: center;
 }
 #nav a {
