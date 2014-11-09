@@ -14,6 +14,10 @@ p {
 	font-size: 15px;
 	line-height: 23px;
 }
+#nav {
+	position:fixed;
+	width: 100%;
+}
 #nav p {
 	color: gray;
 	text-decoration: none;
@@ -47,7 +51,7 @@ p {
 	margin: auto;
 	text-align: center;
 }
-div.clips {
+div.EOclips {
 	margin: 5px;
 	padding: 5px;
 	float: left;
@@ -56,7 +60,7 @@ div.clips {
 	width: auto;
 	display: inline;
 }
-div.clips img {
+div.EOclips img {
 	opacity: 0.4;
 	filter: alpha(opacity=40);
 	display: inline;
@@ -65,7 +69,7 @@ div.clips img {
 	width: auto;
 	padding: 0px;
 }
-div.clips img:hover {
+div.EOclips img:hover {
 	opacity: 1.0;
 	filter: alpha(opacity=100);
 	-webkit-transition: all 100ms ease;
