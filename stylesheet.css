@@ -55,24 +55,19 @@ p {
 	margin: auto;
 	text-align: center;
 }
-#EOclips {
-	margin-top: 70px;
-	padding: 0px;
-	float: left;
+.EOclips {
 	text-align: center;
-	height: 120px;
-	width: auto;
 }
-#EOclips img {
-	white-space: nowrap;
-	opacity: 0.4;
-	filter: alpha(opacity=40);
-	display: inline;
+
+.EOclips img {
+	display:inline-block;
 	height: 100px;
 	width: auto;
-	padding: 0px;
+	opacity: 0.4;
+	filter: alpha(opacity=40);
+	margin: 0px;
 }
-#EOclips img:hover {
+.EOclips img:hover {
 	opacity: 1.0;
 	filter: alpha(opacity=100);
 }
