@@ -60,7 +60,8 @@ div.images img {
 	filter: alpha(opacity=40);
 	display: inline;
 	margin: 5px;
-	border: 1px solid black;
+	height: auto;
+	width: auto;
 }
 div.images img:hover{
 	opacity: 1.0;
