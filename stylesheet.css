@@ -60,6 +60,7 @@ div.EOclips {
 	padding: 0px;
 	float: left;
 	text-align: center;
+	height: 120px;
 }
 div.EOclips img {
 	opacity: 0.4;
@@ -75,6 +76,7 @@ div.EOclips img:hover {
 }
 p.desc {
 	font-family: 'Ultra';
+	font-size: 15px;
 	text-align: center;
 	width: 120px;
 	margin: 5px;
