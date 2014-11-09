@@ -14,14 +14,9 @@ p {
 	font-size: 15px;
 	line-height: 23px;
 }
-#nav {
-	position:fixed;
-	width: 100%;
-	margin:0px auto;
-	background: white;
-	padding: 0px;
-}
 #nav p {
+	position:fixed;
+	background:white;
 	color: gray;
 	text-decoration: none;
 	-webkit-transition: all 400ms ease;
@@ -29,7 +24,7 @@ p {
 	font-family: 'Ultra';
 	letter-spacing: 1px;
 	width: 100%;
-	padding: 0px;
+	padding: 20px;
 	text-align: center;
 }
 #nav a {
