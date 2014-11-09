@@ -47,9 +47,14 @@ p {
 	margin: auto;
 	text-align: center;
 }
-.images div {
+div.images {
 	margin: 5px;
 	padding: 5px;
 	float: left;
 	text-align: center;
+}
+div.desc {
+	text-align: center;
+	width: 120px;
+	margin: 5px;
 }
