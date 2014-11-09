@@ -8,6 +8,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     background: transparent;
 }
 #nav {
+	top: 0px;
 	position:fixed;
 	z-index: 1;
 	width: 160px;
