@@ -20,9 +20,9 @@ p {
 	background: white;
 	width: 100%;
 	top: 0px;
+	bottom: 5px;
 }
 #nav p {
-	top: 5px;
 	color: gray;
 	text-decoration: none;
 	-webkit-transition: all 400ms ease;
