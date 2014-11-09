@@ -8,7 +8,6 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     background: transparent;
 }
 #nav {
-	margin: auto;
 	position:fixed;
 	z-index: 1;
 	width: 160px;
@@ -18,11 +17,12 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	z-index: 1;
 	border-right: 1px gray solid;
 }
-#nav ul {
-	list-style-type: none;;
-	padding-top: 10px;
+* html #nav {
+	position: absolute;
 }
 #nav li {
+	float:left;
+	text-align: ;
 	font-color: gray;
 	text-decoration: none;
 	-webkit-transition: all 400ms ease;
