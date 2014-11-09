@@ -52,6 +52,8 @@ div.images {
 	padding: 5px;
 	float: left;
 	text-align: center;
+	height: auto;
+	width: auto;
 }
 div.images img {
 	display: inline;
