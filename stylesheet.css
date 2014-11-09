@@ -62,7 +62,7 @@ div.images img {
 	text-align: center;
 	height: 100px;
 	width: auto;
-	padding: 1px;
+	padding: 0px;
 }
 div.images img:hover {
 	opacity: 1.0;
@@ -70,6 +70,7 @@ div.images img:hover {
 	-webkit-transition: all 100ms ease;
 }
 .desc p {
+	font-family: 'Ultra';
 	text-align: center;
 	width: 120px;
 	padding: 1px;
