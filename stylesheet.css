@@ -55,7 +55,7 @@ p {
 	margin: auto;
 	text-align: center;
 }
-div.EOclips {
+#EOclips {
 	margin-top: 70px;
 	padding: 0px;
 	float: left;
@@ -63,7 +63,7 @@ div.EOclips {
 	height: 120px;
 	width: auto;
 }
-div.EOclips img {
+#EOclips img {
 	white-space: nowrap;
 	opacity: 0.4;
 	filter: alpha(opacity=40);
@@ -72,11 +72,11 @@ div.EOclips img {
 	width: auto;
 	padding: 0px;
 }
-div.EOclips img:hover {
+#EOclips img:hover {
 	opacity: 1.0;
 	filter: alpha(opacity=100);
 }
-div.EOclips p.desc {
+.desc {
 	font-family: 'Ultra';
 	font-size: 15px;
 	text-align: center;
