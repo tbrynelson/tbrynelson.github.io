@@ -24,7 +24,7 @@ p {
 	font-family: 'Source Serif Pro', serif;
 	font-weight: 300;
 	font-size: 15px;
-	line-height: 50px;
+	line-height: 10px;
 }
 #nav p {
 	font-color: gray;
@@ -33,9 +33,6 @@ p {
 	font-size: 35px;
 	font-family: 'Ultra';
 	letter-spacing: 1px;
-	width: 100%;
-	top: 0px;
-	text-align: center;
 }
 #nav a {
 	color: #2F5868;
