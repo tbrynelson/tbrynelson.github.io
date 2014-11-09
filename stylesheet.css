@@ -47,7 +47,7 @@ p {
 	margin: auto;
 	text-align: center;
 }
-div.images {
+.images div {
 	margin: 5px;
 	padding: 5px;
 	float: left;
