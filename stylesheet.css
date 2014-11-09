@@ -4,7 +4,10 @@
 	height: 50px;
 	background: white;
 	position: fixed;
-	font-color:gray;
+}
+#nav p {
+	top: 5px;
+	font-color: gray;
 	text-decoration: none;
 	-webkit-transition: all 400ms ease;
 	font-size: 35px;
