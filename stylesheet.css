@@ -1,12 +1,13 @@
 #nav {
-	top: 0px;
-	width: 100%;
-	height: 65px;
+	position:fixed;
+	z-index: 1;
+	width: 200px;
+	height:100%;
 	background: white;
 	position: fixed;
 	z-index: 1;
 }
-#nav p {
+#nav ul {
 	top: 5px;
 	font-color: gray;
 	text-decoration: none;
@@ -60,7 +61,7 @@ p {
 	padding-top: 100px
 }
 
-.EOclips ul {
+.EOclips img {
 	display: inline-block;
 	height: 100px;
 	width: 100px;
