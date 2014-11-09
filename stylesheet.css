@@ -68,12 +68,12 @@ p {
 }
 .headshot {
 	padding-bottom: 20px;
-	width: 100px;
-	height: 100px;
-	border-radius: 75px;
-	-webkit-border-radius: 75px;
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
 	-moz-border-radius: 150px;
-	background: url(/imgs/headshot.jpg);
+	background: url(../imgs/headshot.jpg);
 }
 #about {
 	max-width: 400px;
