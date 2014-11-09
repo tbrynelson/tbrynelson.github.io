@@ -57,9 +57,10 @@ p {
 }
 .EOclips {
 	text-align: center;
+	padding-top: 100px
 }
 
-.EOclips img {
+.EOclips ul {
 	display: inline-block;
 	height: 100px;
 	width: 100px;
