@@ -60,9 +60,9 @@ p {
 }
 
 .EOclips img {
-	display:inline-block;
+	display: inline-block;
 	height: 100px;
-	width: auto;
+	width: 100px;
 	opacity: 0.4;
 	filter: alpha(opacity=40);
 	margin: 0px;
