@@ -39,7 +39,7 @@ p {
 }
 #container {
 	max-width: 900px;
-	padding-top: 75px;
+	padding-top: 0px;
 	margin: auto;
 }
 #about {
