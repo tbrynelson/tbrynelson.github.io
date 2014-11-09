@@ -47,3 +47,9 @@ p {
 	margin: auto;
 	text-align: center;
 }
+div.images {
+	margin: 5px;
+	padding: 5px;
+	float: left;
+	text-align: center;
+}
