@@ -1,3 +1,7 @@
+body {
+	margin: 10px;
+	background: gray;
+}
 a {
 	color: #2F5868;
 	text-decoration: none;
@@ -38,6 +42,7 @@ p {
 	transition: all 400ms ease;
 }
 #container {
+	height: 2000px;
 	max-width: 900px;
 	padding-top: 75px;
 	margin: auto;
