@@ -59,9 +59,10 @@ div.images img {
 	opacity: 0.4;
 	filter: alpha(opacity=40);
 	display: inline;
-	margin: 5px;
+	text-align: center;
 	height: 100px;
-	width: auto;
+	width: 100%;
+	padding: 20px;
 }
 div.images img:hover {
 	opacity: 1.0;
