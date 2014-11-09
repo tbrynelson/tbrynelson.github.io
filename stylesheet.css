@@ -22,7 +22,7 @@ p {
 	top: 0px;
 }
 #nav p {
-	background:white;
+	top: 5px;
 	color: gray;
 	text-decoration: none;
 	-webkit-transition: all 400ms ease;
