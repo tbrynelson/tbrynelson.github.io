@@ -15,12 +15,11 @@ p {
 	line-height: 23px;
 }
 #nav {
-	height: 50px;
+	height: 70px;
 	position: fixed;
 	background: white;
 	width: 100%;
 	top: 0px;
-	bottom: 5px;
 }
 #nav p {
 	color: gray;
