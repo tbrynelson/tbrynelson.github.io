@@ -17,9 +17,6 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	z-index: 1;
 	border-right: 1px gray solid;
 }
-* html #nav {
-	position: absolute;
-}
 #nav li {
 	float:left;
 	text-align: ;
@@ -64,14 +61,6 @@ p {
 	background: white;
 	margin: 80px auto;
 	text-align: center;
-}
-.headshot {
-	width: 150px;
-	height: 150px;
-	border-radius: 75px;
-	-webkit-border-radius: 75px;
-	-moz-border-radius: 750px;
-	background: url(../imgs/headshot.jpg);
 }
 #about {
 	max-width: 400px;
