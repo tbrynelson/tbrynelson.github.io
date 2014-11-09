@@ -56,11 +56,9 @@ p {
 	text-align: center;
 }
 div.EOclips {
-	top: 70px;
+	top: 100px;
 	float: left;
 	text-align: center;
-	height: auto;
-	width: auto;
 	display: inline;
 }
 div.EOclips img {
