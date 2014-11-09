@@ -19,18 +19,6 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	z-index: 1;
 	border-right: 1px gray solid;
 }
-.headshot {
-	border: 1px gray solid;
-	z-index: 1;
-	padding-top: 50px;
-	padding-left: 50px;
-	width: 100px;
-	height: 100px;
-	border-radius: 75px;
-	-webkit-border-radius: 75px;
-	-moz-border-radius: 150px;
-	background: url(/imgs/headshot.jpg);
-}
 #nav ul {
 	top: 150px;
 	left: 50px;
@@ -77,6 +65,16 @@ p {
 	max-width: 975px;
 	background: white;
 	margin: 80px auto;
+}
+.headshot {
+	padding-top: 50px;
+	padding-left: 50px;
+	width: 100px;
+	height: 100px;
+	border-radius: 75px;
+	-webkit-border-radius: 75px;
+	-moz-border-radius: 150px;
+	background: url(/imgs/headshot.jpg);
 }
 #about {
 	max-width: 400px;
