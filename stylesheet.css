@@ -25,6 +25,7 @@ p {
 	font-weight: 300;
 	font-size: 15px;
 	line-height: 20px;
+	text-align: center;
 }
 #nav p {
 	font-color: gray;
