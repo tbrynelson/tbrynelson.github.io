@@ -4,6 +4,12 @@
 	height: 50px;
 	background: white;
 	position: fixed;
+	font-color:gray;
+	text-decoration: none;
+	-webkit-transition: all 400ms ease;
+	font-size: 35px;
+	font-family: 'Ultra';
+	letter-spacing: 1px;
 }
 a {
 	color: #2F5868;
@@ -21,15 +27,6 @@ p {
 	font-size: 15px;
 	line-height: 20px;
 	text-align: center;
-}
-#nav p {
-	top: 5px;
-	font-color: gray;
-	text-decoration: none;
-	-webkit-transition: all 400ms ease;
-	font-size: 35px;
-	font-family: 'Ultra';
-	letter-spacing: 1px;
 }
 #nav a {
 	color: #2F5868;
