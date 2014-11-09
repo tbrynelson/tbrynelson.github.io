@@ -18,10 +18,10 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	border-right: 1px gray solid;
 }
 .headshot {
-	border-right: 1px gray solid;
+	border: 1px gray solid;
 	z-index: 2;
-	top: 50px;
-	left: 50px;
+	padding-top: 50px;
+	padding-left: 50px;
 	width: 100px;
 	height: 100px;
 	border-radius: 75px;
