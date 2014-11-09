@@ -27,7 +27,8 @@ p {
 	height: 70px;
 	background: white;
 	position: fixed;
-	width: 100%;
+	max-width: 975px;
+	margin:0px auto;
 }
 #nav p {
 	font-color: gray;
@@ -51,7 +52,7 @@ p {
 	transition: all 400ms ease;
 }
 #container {
-	max-width: 900px;
+	max-width: 975px;
 	background: white;
 	height: 2000px;
 	margin: 80px auto;
