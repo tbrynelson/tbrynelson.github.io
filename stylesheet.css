@@ -64,6 +64,7 @@ div.EOclips {
 	width: auto;
 }
 div.EOclips img {
+	white-space: nowrap;
 	opacity: 0.4;
 	filter: alpha(opacity=40);
 	display: inline;
