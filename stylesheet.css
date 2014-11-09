@@ -23,6 +23,7 @@ p {
 	text-align: center;
 }
 #nav p {
+	top: 5px;
 	font-color: gray;
 	text-decoration: none;
 	-webkit-transition: all 400ms ease;
