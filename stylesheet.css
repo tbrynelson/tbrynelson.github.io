@@ -16,6 +16,7 @@ a:hover {
 	text-decoration: none;
 	-webkit-transition: all 400ms ease;
 	transition: width 10px;
+}
 #nav {
 	top: 0px;
 	position:fixed;
