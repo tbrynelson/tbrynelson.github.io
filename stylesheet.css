@@ -12,6 +12,7 @@
 }
 #nav ul {
 	top: 0px
+	list-style-type: none;
 }
 #nav li {
 	font-color: gray;
