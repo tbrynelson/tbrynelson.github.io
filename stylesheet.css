@@ -56,9 +56,15 @@ div.images {
 	width: auto;
 }
 div.images img {
+	opacity: 0.4;
+	filter: alpha(opacity=40);
 	display: inline;
 	margin: 5px;
 	border: 1px solid black;
+}
+div.images img:hover{
+	opacity: 1.0;
+	filter: alpha(opacity=100);
 }
 div.desc {
 	text-align: center;
