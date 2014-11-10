@@ -19,7 +19,7 @@ a:hover {
 	text-align: center;
 	top: 2px;
 	z-index: 1;
-	height:60px;
+	max-height:60px;
 	width: 100%;
 	background: white;
 	border-right: 2px gray dotted;
