@@ -16,7 +16,7 @@ a:hover {
 	transition: width 10px;
 }
 #nav {
-	vertical-align: center;
+	text-align: center;
 	top: 2px;
 	z-index: 1;
 	width: 100%;
