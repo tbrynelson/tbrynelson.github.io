@@ -67,10 +67,10 @@ p {
 }
 .EOclips {
 	text-align: center;
-}
-
-.EOclips img {
 	display: inline;
+
+}
+.EOclips img {
 	height: 100px;
 	opacity: 0.4;
 	filter: alpha(opacity=40);
