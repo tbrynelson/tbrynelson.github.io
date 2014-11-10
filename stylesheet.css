@@ -70,8 +70,8 @@ p {
 
 }
 .EOclips img {
+	position:relative;
 	display: inline-block;
-	float:left;
 	height: 100px;
 	opacity: 0.4;
 	filter: alpha(opacity=40);
