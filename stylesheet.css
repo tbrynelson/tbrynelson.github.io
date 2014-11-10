@@ -36,8 +36,7 @@ a:hover {
 	letter-spacing: 1px;
 }
 #nav img {
-	margin: 10px auto;
-	bottom: 0px;
+	margin: 10px -10px auto;
 	padding: 5px;
 	height: 40px;
 }
