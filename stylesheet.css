@@ -16,6 +16,7 @@ a:hover {
 	transition: width 10px;
 }
 #nav {
+	display: inline-block;
 	top: 2px;
 	z-index: 1;
 	width: 100%;
