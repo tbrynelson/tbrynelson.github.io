@@ -16,15 +16,12 @@ a:hover {
 	transition: width 10px;
 }
 #nav {
-	top: 0px;
-	position:fixed;
+	top: 2px;
 	z-index: 1;
-	width: 160px;
-	height:100%;
+	width: 100%;
 	background: white;
-	position: fixed;
-	z-index: 1;
 	border-right: 2px gray dotted;
+	padding-bottom: 10px;
 }
 #nav li {
 	font-color: gray;
@@ -33,7 +30,6 @@ a:hover {
 	font-size: 18px;
 	font-family: 'Pontano Sans';
 	letter-spacing: 1px;
-	font-style
 }
 #nav img {
 	padding: 5px;
