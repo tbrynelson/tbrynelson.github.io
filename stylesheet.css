@@ -50,8 +50,8 @@ p {
 	text-align: center;
 }
 .headshot {
-	max-width: 20px;
-	max-height: 20px;
+	width: 20%;
+	height: 20%;
 	border-radius: 50%;
 	margin: 25px;
 }
