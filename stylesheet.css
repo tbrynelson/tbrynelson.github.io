@@ -35,6 +35,11 @@ a:hover {
 	letter-spacing: 1px;
 	font-style
 }
+#nav img {
+	padding: 5px;
+	height: 20px;
+	width: auto;
+}
 p {
 	font-family: 'Source Serif Pro', serif;
 	font-weight: 300;
