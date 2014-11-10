@@ -54,7 +54,7 @@ p {
 	margin: 25px;
 }
 .headshot img {
-	height:50px;
+	height:100px;
 	max-width: 100%;
 	border-radius: 50%;
 	transition: transform 0.5s ease;
