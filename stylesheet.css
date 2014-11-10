@@ -28,7 +28,6 @@ a:hover {
 }
 #nav li {
 	display: inline;
-	position:absolute;
 	font-color: gray;
 	text-decoration: none;
 	-webkit-transition: all 400ms ease;
@@ -38,6 +37,7 @@ a:hover {
 }
 #nav img {
 	margin: 10px auto;
+	bottom: 0px;
 	padding: 5px;
 	height: 40px;
 }
