@@ -48,9 +48,10 @@ p {
 	text-align: center;
 }
 .headshot {
-	max-width: 100%;
+	max-width: 400px;
 	border-radius: 50%;
 	margin: auto;
+	vertical-align: auto;
 }
 .headshot img {
 	height:200px;
