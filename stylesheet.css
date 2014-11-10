@@ -25,12 +25,14 @@ a:hover {
 	margin: 0px;
 	text-align: center;
 	top: 2px;
+	left: 0px;
 	z-index: 1;
 	background: white;
 	border-bottom: 2px gray dotted;
 	padding-bottom: 10px;
 }
 #nav li {
+	display: inline;
 	font-color: gray;
 	text-decoration: none;
 	-webkit-transition: all 400ms ease;
