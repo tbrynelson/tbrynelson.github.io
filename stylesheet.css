@@ -54,14 +54,14 @@ p {
 	margin: 25px;
 }
 .headshot img {
-	height:100px;
+	height:200px;
 	max-width: 100%;
 	border-radius: 50%;
 	transition: transform 0.5s ease;
 	transform: scale(0.8);
 	display: block;
-	margin-left: auto;
-	margin-right: auto;
+	margin-left: 200px;
+	margin-right: 200px;
 }
 .headshot img:hover {
 	transform: scale(.9);
