@@ -59,6 +59,9 @@ p {
 	border-radius: 50%;
 	transition: transform 0.5s ease;
 	transform: scale(0.8);
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 .headshot img:hover {
 	transform: scale(.9);
