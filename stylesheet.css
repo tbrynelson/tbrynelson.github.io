@@ -28,7 +28,7 @@ a:hover {
 }
 #nav li {
 	display: inline;
-	line-height: 10px;
+	position:relative;
 	font-color: gray;
 	text-decoration: none;
 	-webkit-transition: all 400ms ease;
