@@ -55,7 +55,9 @@ p {
 }
 #container {
 	background: white;
-	margin: 90px 100px;
+	width: 100%;
+	max-width: 800px;
+	margin: 90px;
 	text-align: center;
 }
 .headshot {
