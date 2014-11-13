@@ -8,7 +8,7 @@ head, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, 
     background: transparent;
 }
 body {
-	width: 800px;
+	width: 1000px;
 	margin: 0px 100px;
 }
 a {
@@ -26,9 +26,9 @@ a:hover {
 	position:fixed;
 	overflow-x:hidden;
 	width: 100%;
-	max-width: 800px;
+	max-width: 1000px;
 	height: 60px;
-	margin: 0px 100px;
+	margin: 0px;
 	text-align: center;
 	z-index: 1;
 	background: white;
