@@ -56,8 +56,8 @@ p {
 #container {
 	background: white;
 	width: 100%;
-	max-width: 800px;
-	margin: 90px 0px 90px 10px;
+	max-width: 1000px;
+	margin: 90px 0px;
 	text-align: center;
 }
 .headshot {
@@ -67,6 +67,7 @@ p {
 	vertical-align: auto;
 }
 .headshot img {
+	margin: 10px;
 	height:200px;
 	max-width: 100%;
 	border-radius: 50%;
