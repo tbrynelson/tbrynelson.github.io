@@ -26,6 +26,7 @@ a:hover {
 	position:fixed;
 	overflow-x:hidden;
 	width: 100%;
+	max-width: 800px;
 	height: 60px;
 	margin: 0px 100px;
 	text-align: center;
@@ -54,7 +55,7 @@ p {
 }
 #container {
 	background: white;
-	margin: 0px  100px;
+	margin: 90px 100px;
 	text-align: center;
 }
 .headshot {
