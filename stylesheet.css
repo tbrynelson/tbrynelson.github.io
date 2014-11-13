@@ -22,6 +22,7 @@ a:hover {
 }
 #nav {
 	top: 0px;
+	left: 0px;
 	position:fixed;
 	overflow-x:hidden;
 	width: 75%;
