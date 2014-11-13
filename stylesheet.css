@@ -33,6 +33,7 @@ a:hover {
 	z-index: 1;
 	background: white;
 	padding-bottom: 15px;
+	border-bottom: 1px gray solid;
 }
 #nav li {
 	display: inline;
