@@ -53,6 +53,7 @@ p {
 	text-align: center;
 }
 #container {
+	position: relative;
 	background: white;
 	width: 75%;
 	margin: 90px 0px;
