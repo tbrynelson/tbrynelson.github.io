@@ -28,13 +28,13 @@ a:hover {
 	width: 75%;
 	height: 60px;
 	margin: 0px;
-	text-align: center;
 	z-index: 1;
 	background: white;
 	padding-bottom: 15px;
 	border-bottom: 1px gray solid;
 }
 #nav li {
+	text-align: center;
 	display: inline;
 	font-size: 18px;
 	font-family: 'Pontano Sans';
