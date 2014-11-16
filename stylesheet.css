@@ -60,6 +60,7 @@ p {
 }
 #container a:hover {
 	border-bottom: 1px dotted;
+	line-height: 10px;
 }
 .headshot {
 	max-width: 400px;
