@@ -18,6 +18,10 @@ a:hover {
 	color: black;
 	text-decoration: none;
 }
+i {
+	height: 10px;
+	width: auto;
+}
 #nav {
 	position:fixed;
 	overflow-x:hidden;
