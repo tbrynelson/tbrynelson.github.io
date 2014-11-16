@@ -114,3 +114,11 @@ h2 {
 	left: 0;
 	width: 100%;
 }
+h2 span{
+	color: white;
+	font: bold 24px;
+	letter-spacing: -1px;
+	background: rgb(0, 0, 0);
+	background: rgba(0, 0, 0, 0.7);
+	padding: 10px;
+}
