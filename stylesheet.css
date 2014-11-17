@@ -87,12 +87,14 @@ h4 {
 	display: none;
 	width: 180px;
 	top: 0;
+	z-index: 2;
 }
 h4 span {
 	color: white;
 	font: bold 24px Helvetica;
 	letter-spacing: -1px;
 	background: rgba(0, 0, 0, 0.7);
+	z-index: 2;
 }
 #gallery a:hover + h4 {
 	display: block;
