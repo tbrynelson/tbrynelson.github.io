@@ -81,7 +81,7 @@ p {
 }
 h4 {
 	position:absolute;
-	visibility: hidden;
+	opacity: 0;
 	width: 180px;
 	top: 0;
 	-webkit-transform-style: preserve-3d;
@@ -94,6 +94,6 @@ h4 span {
 	-webkit-transform-style: preserve-3d;
 }
 #gallery a:hover + h4 {
-	visibility: visible;
+	opacity: 1;
 	-webkit-transform-style: preserve-3d;
 }
