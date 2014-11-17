@@ -72,6 +72,9 @@ p {
 #gallery {
 	margin: 0;
 }
+#gallery img {
+	height: 100px;
+}
 #gallery li {
 	position:relative;
 	float:left;
