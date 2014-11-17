@@ -40,14 +40,6 @@ p {
 	text-align: center;
 	line-height: 20px;
 }
-#container a {
-	color: #828279;
-	text-decoration: none;
-}
-#container a:hover {
-	border-bottom: 1px dotted;
-	line-height: 5px;
-}
 .headshot {
 	max-width: 400px;
 	border-radius: 50%;
@@ -67,6 +59,14 @@ p {
 	padding-left: 0px;
 	margin: auto;
 	text-align: center;
+}
+#about a {
+	color: #828279;
+	text-decoration: none;
+}
+#about a:hover {
+	border-bottom: 1px dotted;
+	line-height: 5px;
 }
 .EOClips {
 	margin-top: 400px;
