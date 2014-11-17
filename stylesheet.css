@@ -116,7 +116,7 @@ h2 {
 }
 h2 span{
 	color: white;
-	font: bold 'Source Serif Pro', serif;
+	font-family: 'Source Serif Pro', serif;
 	letter-spacing: -1px;
 	background: rgb(0, 0, 0);
 	background: rgba(0, 0, 0, 0.7);
