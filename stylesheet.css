@@ -32,7 +32,7 @@ a {
 p {
 	font-family: 'Source Serif Pro', serif;
 	font-size: 20px;
-	line-height: 20px;
+	line-height: 120%;
 	text-align: center;
 }
 #container {
@@ -60,7 +60,6 @@ p {
 	padding-top: 15px;
 	padding-left: 0px;
 	margin: auto;
-	line-height: 120%;
 }
 #about a {
 	color: #828279;
