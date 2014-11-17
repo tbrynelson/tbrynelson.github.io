@@ -95,5 +95,4 @@ h4 span {
 }
 #gallery a:hover + h4 {
 	opacity: 1;
-	-webkit-transform-style: preserve-3d;
 }
