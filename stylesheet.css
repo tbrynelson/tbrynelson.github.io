@@ -45,6 +45,10 @@ p {
 	text-align: center;
 	line-height: 20px;
 }
+#container a {
+	color: #828279;
+	text-decoration: none;
+}
 #container a:hover {
 	border-bottom: 1px dotted;
 	line-height: 5px;
