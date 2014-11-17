@@ -91,7 +91,7 @@ h4 span {
 	letter-spacing: -1px;
 	background: rgba(0, 0, 0, 0.7);
 }
-#gallery a:hover + h4 + span {
+#gallery a:hover + h4:hover {
 	visibility: visible;
 	-webkit-transition: webkit-transform 01ms ease;
 }
