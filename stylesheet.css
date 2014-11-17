@@ -100,6 +100,8 @@ p {
 }
 .image {
 	position: relative;
+}
+.image img {
 	height: 100px;
 }
 h2 {
