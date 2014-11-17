@@ -72,14 +72,13 @@ p {
 .EOClips {
 	margin-top: 400px;
 	position:relative;
+	display:inline-block;
 }
-.EOclips img {
-	position:relative;
-	display: inline-block;
+.EOClips.image {
+	position: relative;
 	height: 100px;
-	margin: 0px;
 }
-.EOClips h2 {
+h2 {
 	position: absolute;
 	top: 200px;
 	left: 0;
