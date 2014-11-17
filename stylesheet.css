@@ -79,3 +79,10 @@ p {
 	position:relative;
 	float:left;
 }
+h4
+{
+	display: none;
+}
+#gallery a:hover + h4 {
+	display: block;
+}
