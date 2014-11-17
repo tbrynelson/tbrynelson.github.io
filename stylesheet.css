@@ -71,6 +71,7 @@ p {
 }
 .EOClips {
 	margin-top: 400px;
+	position:relative;
 }
 .EOclips img {
 	position:relative;
@@ -85,7 +86,6 @@ p {
 	width: 100%;
 }
 h2 span {
-	margin: auto;
 	color: white;
 	font-family: 'Source Serif Pro', serif;
 	letter-spacing: -1px;
