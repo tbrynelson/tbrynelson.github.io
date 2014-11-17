@@ -90,8 +90,8 @@ h4 span {
 	font: bold 24px Helvetica;
 	letter-spacing: -1px;
 	background: rgba(0, 0, 0, 0.7);
-	-webkit-transition: -webkit-transform 500ms;
 }
 #gallery a:hover + h4 {
 	display: block;
+	-webkit-transition: -webkit-transform 500ms;
 }
