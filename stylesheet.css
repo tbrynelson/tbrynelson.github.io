@@ -93,6 +93,14 @@ h4 span {
 	background: rgba(0, 0, 0, 0.7);
 	-webkit-transform-style: preserve-3d;
 }
-#gallery li:hover + h4 {
+#gallery a:hover + h4 {
 	opacity: 1;
+}
+figure {
+	overflow: hidden;
+}
+figcaption {
+	background: rgba(0, 0, 0, 0.7);
+	color: white;
+	display: table;
 }
