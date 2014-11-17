@@ -85,13 +85,20 @@ p {
 	position:relative;
 	display: inline-block;
 	height: 100px;
-	opacity: 0.4;
-	filter: alpha(opacity=40);
 	margin: 0px;
 }
-.EOclips img:hover {
-	opacity: 1.0;
-	filter: alpha(opacity=100);
+.EOClips h2 {
+	position: absolute;
+	top: 200px;
+	left: 0;
+	width: 100%;
+}
+.EOClips h2 span{
+	color: white;
+	font-family: 'Source Serif Pro', serif;
+	letter-spacing: -1px;
+	background: rgb(0, 0, 0);
+	background: rgba(0, 0, 0, 0.7);
 }
 .desc {
 	font-size: 15px;
@@ -109,12 +116,4 @@ h2 {
 	top: 200px;
 	left: 0;
 	width: 100%;
-}
-h2 span{
-	color: white;
-	font-family: 'Source Serif Pro', serif;
-	letter-spacing: -1px;
-	background: rgb(0, 0, 0);
-	background: rgba(0, 0, 0, 0.7);
-	padding: 10px;
 }
