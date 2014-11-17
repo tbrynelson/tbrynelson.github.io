@@ -68,6 +68,9 @@ p {
 	margin: auto;
 	text-align: center;
 }
+.EOClips {
+	margin-top: 400px;
+}
 .EOclips img {
 	position:relative;
 	display: inline-block;
