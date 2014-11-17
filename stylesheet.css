@@ -74,7 +74,7 @@ p {
 	position:relative;
 	display:inline-block;
 }
-.EOClips.image {
+.EOClips #image {
 	position: relative;
 	height: 100px;
 }
