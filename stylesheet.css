@@ -84,6 +84,7 @@ h4
 	position:absolute;
 	display: none;
 	width: 150px;
+	top: 0;
 }
 #gallery a:hover + h4 {
 	display: block;
