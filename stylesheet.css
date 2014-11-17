@@ -72,6 +72,7 @@ p {
 .EOClips {
 	margin-top: 400px;
 	position:relative;
+	height: 100px;
 }
 .EOClips ul {
 	display: inline;
