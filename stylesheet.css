@@ -72,3 +72,8 @@ p {
 #gallery {
 	margin: 0;
 }
+#gallery li {
+	position:relative;
+	float:left;
+	width: 50%;
+}
