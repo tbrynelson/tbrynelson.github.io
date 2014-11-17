@@ -74,12 +74,12 @@ p {
 	position:relative;
 	display:inline-block;
 }
-#image ul {
+.EOClips ul {
 	display:inline;
 	position: relative;
 	height: 100px;
 }
-#image ul img {
+#image img {
 	height: 100px;
 }
 #image h2 {
