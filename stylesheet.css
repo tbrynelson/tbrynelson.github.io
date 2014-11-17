@@ -85,6 +85,7 @@ p {
 	width: 100%;
 }
 h2 span {
+	position: relative;
 	color: white;
 	font-family: 'Source Serif Pro', serif;
 	letter-spacing: -1px;
