@@ -93,5 +93,5 @@ h4 span {
 }
 #gallery a:hover + h4 {
 	display: block;
-	-webkit-transition: -webkit-transform 500ms;
+	-webkit-transition: 500ms;
 }
