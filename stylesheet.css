@@ -80,6 +80,7 @@ p {
 }
 #image img {
 	position: relative;
+	display: inline;
 	height: 100px;
 }
 #image h2 {
