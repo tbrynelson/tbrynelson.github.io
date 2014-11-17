@@ -40,7 +40,6 @@ p {
 	background: white;
 	width: 75%;
 	margin: 80px 0px;
-	z-index: 1;
 }
 .headshot {
 	text-align: center;
@@ -72,33 +71,27 @@ p {
 }
 #gallery {
 	margin: 0;
-	z-index: 1;
 }
 #gallery img {
 	height: 100px;
-	z-index: 1;
 }
 #gallery li {
 	position:relative;
 	float:left;
-	z-index: 1;
 }
 h4 {
 	position:absolute;
 	display: none;
 	width: 180px;
 	top: 0;
-	z-index: 2;
 }
 h4 span {
 	color: white;
 	font: bold 24px Helvetica;
 	letter-spacing: -1px;
 	background: rgba(0, 0, 0, 0.7);
-	z-index: 2;
 }
 #gallery a:hover + h4 {
 	display: block;
-	-webkit-transition: 500ms;
-	z-index: 2;
+	-webkit-transition: webkit-transform 500ms ease;
 }
