@@ -74,9 +74,11 @@ p {
 	position:relative;
 	display:inline-block;
 }
-#image img {
-	display:inline-block;
+#image ul {
+	display:inline;
 	position: relative;
+}
+#image ul img {
 	height: 100px;
 }
 #image h2 {
