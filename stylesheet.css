@@ -81,7 +81,7 @@ p {
 }
 h4 {
 	position:absolute;
-	display: none;
+	visibility: hidden;
 	width: 180px;
 	top: 0;
 }
@@ -92,9 +92,6 @@ h4 span {
 	background: rgba(0, 0, 0, 0.7);
 }
 #gallery a:hover + h4 {
-	display:  block;
+	visibility: visible;
 	-webkit-transition: webkit-transform 01ms ease;
-}
-#gallery a:active + h4 {
-	display: block;
 }
