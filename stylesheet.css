@@ -4,6 +4,9 @@ html {
 body {
 	margin: 0px 10% 0 10%;
 }
+a {
+	text-decoration: none;
+}
 #nav {
 	position:fixed;
 	overflow-x:hidden;
@@ -57,8 +60,6 @@ p {
 	padding-top: 15px;
 	padding-left: 0px;
 	margin: auto;
-	text-align: center;
-	line-height: 25px;
 }
 #about a {
 	color: #828279;
