@@ -81,6 +81,7 @@ p {
 #gallery li {
 	position:relative;
 	float:left;
+	z-index: 1;
 }
 h4 {
 	position:absolute;
