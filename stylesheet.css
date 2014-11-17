@@ -81,6 +81,7 @@ p {
 }
 h4
 {
+	position:absolute;
 	display: none;
 	width: 150px;
 }
