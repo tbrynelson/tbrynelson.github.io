@@ -95,3 +95,6 @@ h4 span {
 	display:  block;
 	-webkit-transition: webkit-transform 01ms ease;
 }
+#gallery a:active + h4 {
+	display: block;
+}
