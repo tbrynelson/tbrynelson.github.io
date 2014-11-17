@@ -84,14 +84,16 @@ h4 {
 	visibility: hidden;
 	width: 180px;
 	top: 0;
+	-webkit-transform-style: preserve-3d;
 }
 h4 span {
 	color: white;
 	font: bold 24px Helvetica;
 	letter-spacing: -1px;
 	background: rgba(0, 0, 0, 0.7);
+	-webkit-transform-style: preserve-3d;
 }
 #gallery a:hover + h4 {
 	visibility: visible;
-	-webkit-transition: webkit-transform 01ms ease;
+	-webkit-transform-style: preserve-3d;
 }
