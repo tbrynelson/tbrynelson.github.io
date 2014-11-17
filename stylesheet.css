@@ -69,3 +69,6 @@ p {
 	border-bottom: 1px dotted;
 	line-height: 5px;
 }
+#gallery {
+	margin: 0;
+}
