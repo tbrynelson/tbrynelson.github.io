@@ -37,7 +37,6 @@ p {
 	background: white;
 	width: 75%;
 	margin: 90px 0px;
-	line-height: 20px;
 }
 .headshot {
 	text-align: center;
@@ -59,6 +58,7 @@ p {
 	padding-left: 0px;
 	margin: auto;
 	text-align: center;
+	line-height: 25px;
 }
 #about a {
 	color: #828279;
