@@ -93,6 +93,6 @@ h4 span {
 	background: rgba(0, 0, 0, 0.7);
 	-webkit-transform-style: preserve-3d;
 }
-#gallery a:hover + h4 {
+#gallery a:hover + h4 + span {
 	opacity: 1;
 }
