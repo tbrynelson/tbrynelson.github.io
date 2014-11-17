@@ -19,10 +19,6 @@ body {
 }
 #nav li {
 	display: inline;
-	font-size: 18px;
-	font-family: 'Pontano Sans';
-	font-weight: bold;
-	letter-spacing: 1px;
 	padding: 0px 5px 0px 5px;
 }
 #nav img {
@@ -33,7 +29,7 @@ body {
 p {
 	font-family: 'Source Serif Pro', serif;
 	font-weight: 300;
-	font-size: 15px;
+	font-size: 25px;
 	line-height: 20px;
 	text-align: center;
 }
