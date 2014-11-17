@@ -40,6 +40,7 @@ p {
 	background: white;
 	width: 75%;
 	margin: 80px 0px;
+	z-index: 1;
 }
 .headshot {
 	text-align: center;
