@@ -81,7 +81,7 @@ p {
 }
 h4 {
 	position:absolute;
-	z-index: -1;
+	display: none;
 	width: 180px;
 	top: 0;
 }
@@ -92,6 +92,6 @@ h4 span {
 	background: rgba(0, 0, 0, 0.7);
 }
 #gallery a:hover + h4 {
-	z-index: 2;
-	-webkit-transition: webkit-transform 00ms ease;
+	display:  block;
+	-webkit-transition: webkit-transform 01ms ease;
 }
