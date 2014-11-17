@@ -75,10 +75,10 @@ p {
 }
 .EOClips ul {
 	display: inline;
-	position: relative;
 	height: 100px;
 }
 #image img {
+	position: relative;
 	height: 100px;
 }
 #image h2 {
