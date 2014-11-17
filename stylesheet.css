@@ -69,35 +69,3 @@ p {
 	border-bottom: 1px dotted;
 	line-height: 5px;
 }
-.EOClips {
-	margin-top: 400px;
-	position:relative;
-	height: 100px;
-}
-.EOClips li {
-	display: inline;
-	height: 100px;
-}
-#image img {
-	position: relative;
-	display: inline;
-	height: 100px;
-}
-#image h2 {
-	position: relative;
-	top: 200px;
-	left: 0;
-	width: 100%;
-}
-h2 span {
-	color: white;
-	font-family: 'Source Serif Pro', serif;
-	letter-spacing: -1px;
-	background: rgb(0, 0, 0);
-	background: rgba(0, 0, 0, 0.7);
-}
-.desc {
-	font-size: 15px;
-	text-align: center;
-	padding-top: 2px;
-}
