@@ -18,7 +18,7 @@ a {
 	background: white;
 	padding-left: 0px;
 	padding-bottom: 5px;
-	box-shadow: 2px 2px 5px black;
+	box-shadow: 2px 0px 5px black;
 }
 #nav li {
 	display: inline;
