@@ -26,6 +26,8 @@ p {
 #about a:hover {
 	border-bottom: 1px dotted;
 	line-height: 5px;
+	bottom: 3px;
+	content: '';
 	height: 0;
 	left: 0;
 	right: 0;
