@@ -19,6 +19,9 @@ p {
 	padding-left: 0px;
 	margin: auto;
 }
+#about img {
+	border-radius: 50%;
+}
 #about a {
 	color: #828279;
 	text-decoration: none;
