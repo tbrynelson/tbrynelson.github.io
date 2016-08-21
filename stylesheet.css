@@ -24,6 +24,6 @@ p {
 	text-decoration: none;
 }
 #about a:hover {
-	border-bottom: 2px dotted;
+	border-bottom: 5px dotted;
 	line-height: 5px;
 }
