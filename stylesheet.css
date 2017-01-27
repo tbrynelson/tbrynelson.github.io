@@ -11,24 +11,18 @@ p {
 	text-align: center;
 }
 #container {
+	max-width:850px;
+	padding: 50px 30px;
+	margin: auto;
 }
 #about {
-	max-width: 400px;
-	padding-bottom: 40px;
-	padding-top: 15px;
-	padding-left: 0px;
-	margin: auto;
-	text-align: center;
-}
-
-#about img {
 	display: block;
 	max-width: 100%;
 	transform: rotate(90deg);
 	border-radius: 10px;
 }
 
-#about a {
+#info {
 	color: #828279;
 	text-decoration: none;
 }
