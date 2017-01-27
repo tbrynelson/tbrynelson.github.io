@@ -22,7 +22,6 @@ p {
 }
 
 #about img {
-	-webkit-transform: rotate(90deg);
 	transform: rotate(90);
 	width: 200;
 }
