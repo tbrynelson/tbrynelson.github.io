@@ -22,8 +22,9 @@ p {
 }
 
 #about img {
+	display: block;
+	max-width: 50%;
 	transform: rotate(90deg);
-	width: 200px;
 }
 
 #about a {
