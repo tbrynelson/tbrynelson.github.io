@@ -21,6 +21,12 @@ p {
 	text-align: center;
 }
 
+#about img {
+	-webkit-transform: rotate(90deg);
+	transform: rotate(90);
+	width: 200;
+}
+
 #about a {
 	color: #828279;
 	text-decoration: none;
