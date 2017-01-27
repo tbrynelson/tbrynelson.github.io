@@ -1,4 +1,4 @@
 function lastModified() {
 	var x = document.lastModified;
-	document.getElementById("timestamp").innerHTML = x;
+	document.getElementByTagName('span').innerHTML = x;
 }
