@@ -14,10 +14,15 @@ p {
 	max-width:850px;
 	padding: 50px 30px;
 	margin: auto;
+	border-radius: 10px;
 }
 #about {
+	margin-bottom: 50px;
+}
+
+#about img {
 	display: block;
-	max-width: 100%;
+	max-width: 75%;
 	transform: rotate(90deg);
 	border-radius: 10px;
 }
