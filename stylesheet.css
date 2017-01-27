@@ -22,7 +22,7 @@ p {
 }
 
 #about img {
-	transform: rotate(90);
+	transform: rotate(90deg);
 	width: 200px;
 }
 
