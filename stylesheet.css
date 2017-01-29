@@ -5,11 +5,11 @@ html {
 	max-height: 500px;
 	max-width: 400px;
 	margin: 0 auto;
-	padding: 20px 0px;
 }
 #about {
 	max-width: 400px;
 	margin: 0 auto;
+	padding: 20px 0px;
 }
 
 #about img {
@@ -23,4 +23,11 @@ html {
 	text-align: center;
 	color: #828279;
 	text-decoration: none;
+}
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+
 }
