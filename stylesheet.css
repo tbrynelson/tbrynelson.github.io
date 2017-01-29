@@ -1,5 +1,6 @@
 html {
 	background-color: white;
+	-webkit-font-smoothing:antialiased
 }
 #container {
 	max-height: 500px;
@@ -17,6 +18,7 @@ html {
 }
 
 #info {
+	font-family:'Bree Sarif', serif;
 	text-align: center;
 	color: #828279;
 	text-decoration: none;
