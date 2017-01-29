@@ -21,7 +21,11 @@ html {
 	font-family: 'Bree Serif', serif;
 	text-align: center;
 	color: #828279;
+}
+
+#info a {
 	text-decoration: none;
+	color: #5533FF;
 }
 
 @media only screen 
