@@ -14,12 +14,11 @@ html {
 #about img {
 	max-width: 100%;
 	border-radius: 10px;
+	-webkit-transform: rotate(90deg);
 }
 
 #info {
 	text-align: center;
 	color: #828279;
 	text-decoration: none;
-	display:inline-block;
-	margin-right:25px;
 }
