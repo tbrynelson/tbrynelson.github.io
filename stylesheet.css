@@ -4,6 +4,7 @@ html {
 #container {
 	max-height: 500px;
 	max-width: 400px;
+	margin: 0 auto;
 }
 #about {
 }
