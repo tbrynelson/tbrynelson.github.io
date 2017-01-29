@@ -5,6 +5,7 @@ html {
 	max-height: 500px;
 	max-width: 400px;
 	margin: 0 auto;
+	padding: 20px 0px;
 }
 #about {
 	max-width: 400px;
@@ -12,6 +13,7 @@ html {
 }
 
 #about img {
+	max-height: 100%
 	max-width: 100%;
 	border-radius: 10px;
 	-webkit-transform: rotate(90deg);
