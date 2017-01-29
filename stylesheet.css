@@ -23,6 +23,7 @@ body {
 }
 
 #info {
+	text-align: center;
 	color: #828279;
 	text-decoration: none;
 }
