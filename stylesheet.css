@@ -18,6 +18,7 @@ body {
 #about img {
 	display: block;
 	max-width: 75%;
+	-webkit-transform: rotate(90deg);
 	transform: rotate(90deg);
 	border-radius: 10px;
 }
