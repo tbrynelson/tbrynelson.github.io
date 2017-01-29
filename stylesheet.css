@@ -1,13 +1,8 @@
 html {
 	background-color: white;
 }
-
-body {
-	margin: 0px;
-}
-
 #container {
-	max-height: 500px
+	max-height: 500px;
 	max-width: 400px;
 }
 #about {
