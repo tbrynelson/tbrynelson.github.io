@@ -10,6 +10,7 @@ html {
 }
 
 #about img {
+	margin: 75% auto;
 	border-radius: 10px;
 }
 
