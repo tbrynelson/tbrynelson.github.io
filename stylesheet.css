@@ -7,12 +7,14 @@ html {
 	margin: 0 auto;
 }
 #about {
+	max-width: 400px;
 	margin: 0 auto;
 }
 
 #about img {
 	max-width: 70%;
 	border-radius: 10px;
+	margin: 0 auto;
 }
 
 #info {
