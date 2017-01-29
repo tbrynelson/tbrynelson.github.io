@@ -12,9 +12,9 @@ html {
 }
 
 #about img {
-	max-width: 300px;
+	width: 50%;
 	border-radius: 10px;
-	margin: auto;
+	margin: 0 auto;
 }
 
 #info {
