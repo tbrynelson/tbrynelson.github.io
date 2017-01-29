@@ -10,7 +10,7 @@ html {
 }
 
 #about img {
-	margin: auto 400px;
+	max-width: 70%;
 	border-radius: 10px;
 }
 
