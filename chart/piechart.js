@@ -1,6 +1,6 @@
 function pieChart(){
 	var dataset = [
-	{ label: 'Abulia', count: 10},
+	{ label: 'Abulia', count: 20},
 	{ label: 'Betelgeuse', count: 20},
 	{ label: 'Canataloupe', count: 30},
 	{label: 'Dijkstra', count: 40}
