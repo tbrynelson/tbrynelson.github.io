@@ -1,4 +1,5 @@
-var dataset = [
+function pieChart() {
+	var dataset = [
 { label: 'Abulia', count: 10},
 { label: 'Betelgeuse', count: 20},
 { label: 'Canataloupe', count: 30},
@@ -34,3 +35,4 @@ var path = svg.selectAll('path')
 	.attr('fill', function(d, i) {
 		return color(d.data.label);
 	});
+}
