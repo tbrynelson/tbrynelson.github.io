@@ -35,3 +35,8 @@ html {
   and (-webkit-min-device-pixel-ratio: 2) { 
 
 }
+
+#chart {
+	margin: 0 auto;
+	padding-top: 20px;
+}
