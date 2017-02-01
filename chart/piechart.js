@@ -19,8 +19,10 @@ function pieChart(){
 		.append('g')
 		.attr('transform', 'translate(' + (width / 2) + ',' + (height / 2) + ')');
 
+	var donutWidth = 75;
+
 	var arc = d3.arc()
-		.innerRadius(0)
+		.innerRadius(radius - donutWidth)
 		.outerRadius(radius);
 
 	var pie = d3.pie()
