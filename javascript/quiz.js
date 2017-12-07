@@ -12,8 +12,9 @@ var response;
 var html;
 
 function print(message) {
-	document.write("<p>You answered " + correctCount + " out of " + questions.length + ".</p>");
-};
+	var outputDiv = document.getElementById('output');
+	outputDiv.innerHTML = message;
+}
 
 for (var i = 0; i < questions.length; i += 1) {
 	question = questions[i][0];
@@ -24,4 +25,5 @@ for (var i = 0; i < questions.length; i += 1) {
 	}
 };
 
-document.write("<p>You answered " + correctCount + " out of " + questions.length + ".</p>");
+html = "<p>You answered " + correctCount + " out of " + questions.length + ".</p>";
+print(html)
