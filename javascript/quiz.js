@@ -15,7 +15,7 @@ function quiz(questions) {
 			corectCount += 1;
 		}
 	}
-	document.write("<p>You answered " + correctCount + " out of " questions.length ".</p>");
+	document.write("<p>You answered " + correctCount + " out of " + questions.length + ".</p>");
 };
 
 
