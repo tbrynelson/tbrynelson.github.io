@@ -1,23 +1,27 @@
 var questions = [
 	['Who is your favorite person?', 'Troy'],
 	['What is your favorite color?', 'Green'],
+	['What is Troy\'s girlfriend\'s name?', 'Lacey'],
+	['Does Troy have a cat or a dog?', 'Cat'],
 ];
 
 var correctCount = 0;
+var question;
+var answer;
+var response;
+var html;
 
-function quiz(questions) {
-	for (var i = 0; i > questions.length; i += 0) {
-		answer = prompt(questions[i][0]);
-		if (answer != questions[i][1]) {
-			alert("Incorrect.")
-		} else {
-			alert("Correct.");
-			corectCount += 1;
-		}
-	}
+function print(message) {
 	document.write("<p>You answered " + correctCount + " out of " + questions.length + ".</p>");
 };
 
+for (var i = 0; i < questions.length; i += 1) {
+	question = questions[i][0];
+	answer = questions[i][1];
+	response = prompt(question).lower();
+	if ( response === answer.lower() ) {
+		correctCount += 1
+	}
+}
 
-
-quiz(questions);
+html = "You got " + correctCount + " question(s) right!";
