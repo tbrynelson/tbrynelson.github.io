@@ -17,7 +17,7 @@ html {
 	border-radius: 10px;
 }
 
-#info {
+#info #output {
 	font-family: 'Bree Serif', serif;
 	font-size: 20px;
 	text-align: center;
