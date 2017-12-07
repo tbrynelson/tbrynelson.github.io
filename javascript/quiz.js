@@ -24,4 +24,4 @@ for (var i = 0; i < questions.length; i += 1) {
 	}
 };
 
-html = "You got " + correctCount + " question(s) right!";
+document.write("<p>You answered " + correctCount + " out of " + questions.length + ".</p>");
