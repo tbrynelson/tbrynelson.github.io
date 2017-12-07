@@ -22,6 +22,6 @@ for (var i = 0; i < questions.length; i += 1) {
 	if ( response === answer.toLowerCase() ) {
 		correctCount += 1
 	}
-}
+};
 
 html = "You got " + correctCount + " question(s) right!";
