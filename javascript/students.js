@@ -30,13 +30,14 @@ html += '<h2> Here are my students: </h2>';
 
 
 
-/*for (i = 0; i < students.length; i += 1) {
-	html += '<h3>' + students[i].name + '</h3>'
+for (i = 0; i < students.length; i += 1) {
+	/*html += '<h3>' + students[i].name + '</h3>'
 	html += '<p>' + students[i].track + '</p>'
 	html += '<p>' + students[i].achievements + '</p>'
 	html += '<p>' + students[i].points + '</p>' */
-for (prop in students[i]) {
-	html += '<p>' + students + ': ' + students[prop] + '</p>'
+	for (prop in students[i]) {
+		html += '<p>' + students + ': ' + students[prop] + '</p>'
+		}
 	};
 
 print(html);
