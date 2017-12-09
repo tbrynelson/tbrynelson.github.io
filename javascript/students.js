@@ -35,5 +35,6 @@ for (i = 0; i < students.length; i += 1) {
 	html += '<p>' + students[i] + students[i].track + '</p>'
 	html += '<p>' + students[i] + students[i].achievements + '</p>'
 	html += '<p>' + students[i] + students[i].points + '</p>' 
+};
 
 print(html);
