@@ -6,11 +6,11 @@ var questions = [
 	{
 		question: 'What is your favorite color?', 
 		answer: 'Green'
-	}
+	},
 	{
 		question: 'What is Troy\'s girlfriend\'s name?',
 		answer: 'Lacey'
-	}
+	},
 	{
 		question: 'Does Troy have a cat or a dog?', 
 		answer: 'Cat'
