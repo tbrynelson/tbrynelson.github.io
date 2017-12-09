@@ -1,8 +1,20 @@
 var questions = [
-	['Who is your favorite person?', 'Troy'],
-	['What is your favorite color?', 'Green'],
-	['What is Troy\'s girlfriend\'s name?', 'Lacey'],
-	['Does Troy have a cat or a dog?', 'Cat'],
+	{
+		question: 'Who is your favorite person?', 
+		answer: 'Troy'
+	},
+	{
+		question: 'What is your favorite color?', 
+		answer: 'Green'
+	}
+	{
+		question: 'What is Troy\'s girlfriend\'s name?',
+		answer: 'Lacey'
+	}
+	{
+		question: 'Does Troy have a cat or a dog?', 
+		answer: 'Cat'
+	}
 ];
 var incorrectAnswers = [];
 var correctAnswers = [];
@@ -29,8 +41,8 @@ function buildList(arr) {
 	}
 
 for (var i = 0; i < questions.length; i += 1) {
-	question = questions[i][0];
-	answer = questions[i][1];
+	question = questions[i].question;
+	answer = questions[i].answer;
 	response = prompt(question).toLowerCase();
 	if ( response === answer.toLowerCase() ) {
 		correctCount += 1;
