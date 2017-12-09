@@ -36,7 +36,7 @@ for (i = 0; i < students.length; i += 1) {
 	html += '<p>' + students[i].achievements + '</p>'
 	html += '<p>' + students[i].points + '</p>' */
 	for (prop in students[i]) {
-		html += '<p>' + students + ': ' + students[prop] + '</p>'
+		html += '<p>' + students[i] + ': ' + students[i].prop + '</p>'
 		}
 	};
 
