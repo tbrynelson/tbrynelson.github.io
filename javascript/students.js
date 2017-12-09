@@ -31,7 +31,7 @@ html += '<h4> Here are my students: </h4>';
 
 
 for (i = 0; i < students.length; i += 1) {
-	html += '<h3 Name>: ' + students[i].name + '</h3>'
+	html += '<h3> Name: ' + students[i].name + '</h3>'
 	html += '<p> Track: ' + students[i].track + '</p>'
 	html += '<p> Achievements: ' + students[i].achievements + '</p>'
 	html += '<p> Points: ' + students[i].points + '</p>' 
