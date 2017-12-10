@@ -35,10 +35,10 @@ while (search !== quit.toLowerCase()) {
 	search = prompt("Whose record would you like to see?").toLowerCase();
 	for (var i = 0; i < students.length; i++) {
 		for (var key in students[i]) {
-			if (students[i][key] == search) {
-				break;
+			if (students[i][key].toLowerCase() == search) {
 				results.push(students[i]);
 				html += "<p>" + results + "</p>";
+				break;
 			}
 		}
 	}
