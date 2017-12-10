@@ -37,6 +37,7 @@ while (search !== quit.toLowerCase()) {
 		for (var key in students[i]) {
 			if (students[i][key].indexOf(search) != -1) {
 				results.push(students[i]);
+				html += "<p>" + results + "</p>";
 			}
 		}
 	}
