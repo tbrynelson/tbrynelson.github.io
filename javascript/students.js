@@ -36,6 +36,7 @@ while (search !== quit.toLowerCase()) {
 	for (var i = 0; i < students.length; i++) {
 		for (var key in students[i]) {
 			if (students[i][key] == search) {
+				break
 				results.push(students[i]);
 				html += "<p>" + results + "</p>";
 			}
@@ -45,11 +46,11 @@ while (search !== quit.toLowerCase()) {
 
 
 
-for (i = 0; i < students.length; i += 1) {
+/*for (i = 0; i < students.length; i += 1) {
 	html += '<h3> Name: ' + students[i].name + '</h3>'
 	html += '<p> Track: ' + students[i].track + '</p>'
 	html += '<p> Achievements: ' + students[i].achievements + '</p>'
 	html += '<p> Points: ' + students[i].points + '</p>' 
-};
+};*/
 
 print(html);
