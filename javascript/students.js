@@ -21,8 +21,8 @@ var students = [
 
 var html;
 var search;
-var quit = 'quit'
-var results = []
+var quit = 'quit';
+var results = [];
 
 function print(message) {
 	var outputDiv = document.getElementById('output');
@@ -36,7 +36,7 @@ while (search !== quit.toLowerCase()) {
 	for (var i = 0; i < students.length; i++) {
 		for (var key in students[i]) {
 			if (students[i][key] == search) {
-				break
+				break;
 				results.push(students[i]);
 				html += "<p>" + results + "</p>";
 			}
