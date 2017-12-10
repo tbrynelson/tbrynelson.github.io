@@ -35,7 +35,7 @@ while (search !== quit.toLowerCase()) {
 	search = prompt("Whose record would you like to see?").toLowerCase();
 	for (var i = 0; i < students.length; i++) {
 		for (var key in students[i]) {
-			if (students[i][key].indexOf(search) != -1) {
+			if (students[i][key] == search) {
 				results.push(students[i]);
 				html += "<p>" + results + "</p>";
 			}
