@@ -20,13 +20,27 @@ var students = [
 ];
 
 var html;
+var search;
+var quit = 'quit'
+var results = []
 
 function print(message) {
 	var outputDiv = document.getElementById('output');
 	outputDiv.innerHTML = message;
 };
 
-html += '<h4> Here are my students: </h4>';
+html += '<h4> Student record </h4>';
+
+while (search !== quit.toLowerCase()) {
+	search = prompt("Whose record would you like to see?").toLowerCase();
+	for (var i = 0; i < students.length; i++) {
+		for (var key in students[i]) {
+			if (students[i][key].indexOf(search) != -1) {
+				results.push(students[i]);
+			}
+		}
+	}
+}
 
 
 
