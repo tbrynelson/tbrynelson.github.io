@@ -42,7 +42,7 @@ while (true) {
 	}
 	for (var i = 0; i < students.length; i += 1) {
 		student = students[i];
-		if ( student.name === search ) {
+		if ( student.name === search.toLowerCase() ) {
 			message = getStudentReport(student);
 			break;
 			print(message);
