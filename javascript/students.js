@@ -28,17 +28,17 @@ function print(message) {
 };
 
 function getStudentReport(student) {
-	var report += '<h2>Student: ' + student.name + '</h2>';
-	report += '<p> Track: ' + student.track + '</p>'
-	report += '<p> Achievements: ' + student.achievements + '</p>'
-	report += '<p> Points: ' + student.points + '</p>' 
-	return report
+	var report = '<h2>Student: ' + student.name + '</h2>';
+	report += '<p> Track: ' + student.track + '</p>';
+	report += '<p> Achievements: ' + student.achievements + '</p>';
+	report += '<p> Points: ' + student.points + '</p>' ;
+	return report;
 }
 
 while (true) {
 	search = prompt('Search student records: type a name [Troy] or type "quit" to end.');
 	if (search === null || search.toLowerCase() === 'quit' ) {
-		break
+		break;
 	}
 	for (var i = 0; i < students.length; i += 1) {
 		student = students[i];
@@ -49,8 +49,6 @@ while (true) {
 	}
 }
 
-html += '<h4> Student record </h4>';
-
 
 
 
@@ -60,5 +58,3 @@ html += '<h4> Student record </h4>';
 	html += '<p> Achievements: ' + students[i].achievements + '</p>'
 	html += '<p> Points: ' + students[i].points + '</p>' 
 };*/
-
-print(html);
