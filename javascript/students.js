@@ -44,8 +44,8 @@ while (true) {
 		student = students[i];
 		if ( student.name === search.toLowerCase() ) {
 			message = getStudentReport(student);
-			break;
 			print(message);
+			break;
 		}
 	}
 }
