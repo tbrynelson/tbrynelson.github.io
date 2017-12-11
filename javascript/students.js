@@ -44,12 +44,11 @@ while (true) {
 		student = students[i];
 		if ( student.name === search ) {
 			message = getStudentReport( student );
-			print(message);
 		}
 	}
 }
 
-
+print(message);
 
 
 /*for (i = 0; i < students.length; i += 1) {
