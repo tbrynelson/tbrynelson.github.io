@@ -21,28 +21,36 @@ var students = [
 
 var html;
 var search;
-var quit = 'quit';
-var results = [];
 
 function print(message) {
 	var outputDiv = document.getElementById('output');
 	outputDiv.innerHTML = message;
 };
 
-html += '<h4> Student record </h4>';
+function getStudentReport(student) {
+	var report += '<h2>Student: ' + student.name + '</h2>';
+	report += '<p> Track: ' + student.track + '</p>'
+	report += '<p> Achievements: ' + student.achievements + '</p>'
+	report += '<p> Points: ' + student.points + '</p>' 
+	return report
+}
 
-while (search !== quit.toLowerCase()) {
-	search = prompt("Whose record would you like to see?").toLowerCase();
-	for (var i = 0; i < students.length; i++) {
-		for (var key in students[i]) {
-			if (students[i][key].toLowerCase() == search) {
-				results.push(students[i]);
-				html += "<p>" + results + "</p>";
-				break;
-			}
+while (true) {
+	search = prompt('Search student records: type a name [Troy] or type "quit" to end.');
+	if (search === null || search.toLowerCase() === 'quit' ) {
+		break
+	}
+	for (var i = 0; i < students.length; i += 1) {
+		student = students[i];
+		if ( student.name === search ) {
+			message = getStudentReport( student );
+			print(message);
 		}
 	}
 }
+
+html += '<h4> Student record </h4>';
+
 
 
 
