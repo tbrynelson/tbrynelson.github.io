@@ -28,7 +28,7 @@ function print(message) {
 };
 
 function getStudentReport(student) {
-	var report = '<h2>Student: ' + student.name + '</h2>';
+	var report = '<h4>Student: ' + student.name + '</h4>';
 	report += '<p> Track: ' + student.track + '</p>';
 	report += '<p> Achievements: ' + student.achievements + '</p>';
 	report += '<p> Points: ' + student.points + '</p>' ;
@@ -42,7 +42,7 @@ while (true) {
 	}
 	for (var i = 0; i < students.length; i += 1) {
 		student = students[i];
-		if ( student.name === search ) {
+		if ( student.name === search.toLowerCase() ) {
 			message = getStudentReport(student);
 			print(message);
 			break;
