@@ -21,6 +21,7 @@ var students = [
 
 var html;
 var search;
+var message;
 
 function print(message) {
 	var outputDiv = document.getElementById('output');
@@ -43,7 +44,7 @@ while (true) {
 	for (var i = 0; i < students.length; i += 1) {
 		student = students[i];
 		if ( student.name === search.toLowerCase() ) {
-			var message = getStudentReport(student);
+			message = getStudentReport(student);
 			print(message);
 			break;
 		}
