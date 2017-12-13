@@ -36,6 +36,7 @@ function getStudentReport(student) {
 	return report;
 }
 
+outside:
 while (true) {
 	search = prompt('Search student records: type a name [Troy] or type "quit" to end.');
 	if (search === null || search.toLowerCase() === 'quit' ) {
@@ -46,7 +47,7 @@ while (true) {
 		if ( student.name == search ) {
 			message = getStudentReport(student);
 			print(message);
-			break;
+			break outside;
 		}
 	}
 }
