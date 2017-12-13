@@ -46,7 +46,7 @@ while (true) {
 		if ( student.name == search ) {
 			message = getStudentReport(student);
 			print(message);
-			break;
+			break while;
 		}
 	}
 }
