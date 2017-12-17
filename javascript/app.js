@@ -1,8 +1,8 @@
 const toggleInfo = document.getElementById('toggleInfo');
 const infoDiv = document.querySelector('#info');
-const input = document.querySelector('input');
+const input = document.querySelector('input.description');
 const p = document.querySelector('p.description');
-const button = document.querySelector('button');
+const button = document.querySelector('button.description');
 
 toggleInfo.addEventListener('click', () => {
 if (infoDiv.style.display == 'none') {
