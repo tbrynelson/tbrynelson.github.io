@@ -5,7 +5,11 @@ const p = document.querySelector('p.description');
 const button = document.querySelector('button');
 
 toggleInfo.addEventListener('click', () => {
+if (infoDiv.style.display == 'none') {
+	infoDiv.style.display = 'block';
+} else {
 	infoDiv.style.display = 'none';
+}
 });
 
 button.addEventListener('click', () => {
