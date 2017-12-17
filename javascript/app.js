@@ -1,7 +1,7 @@
-const myHeading = document.getElementById("myHeading");
-const myButton = document.getElementById("myButton");
-const myTextInput = document.getElementById("myTextInput");
+const input = document.querySelector('input');
+const p = document.querySelector('p.description');
+const button = document.querySelector('button');
 
-myButton.addEventListener('click', () => {
-	myHeading.style.color = myTextInput.value;
-});
+button.addEventListener('click', () => {
+	p.textContent = input.value + ';';
+})
