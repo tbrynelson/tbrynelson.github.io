@@ -6,8 +6,10 @@ const button = document.querySelector('button');
 
 toggleInfo.addEventListener('click', () => {
 if (infoDiv.style.display == 'none') {
+	toggleInfo.textContent = 'Hide info';
 	infoDiv.style.display = 'block';
 } else {
+	toggleInfo.textContent = 'Show info';
 	infoDiv.style.display = 'none';
 }
 });
