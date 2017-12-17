@@ -13,9 +13,3 @@ if (infoDiv.style.display == 'none') {
 	infoDiv.style.display = 'none';
 }
 });
-
-button.addEventListener('click', () => {
-	p.innerHTML = input.value + ':';
-})
-
-p.title = "List description";
