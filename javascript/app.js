@@ -6,6 +6,19 @@ const button = document.querySelector('button.description');
 const addItemInput = document.querySelector('input.addItemInput');
 const addItemButton = document.querySelector('input.addItemButton');
 
+
+/*infoDiv.addEventListener('mouseover', () => {
+	listItems.textContent = listItems.textContent.toUpperCase();
+});
+
+infoDiv.addEventListener('mouseout', () => {
+	listItems.textContent = listItems.textContent.toLowerCase();
+});*/
+
+document.addEventListener('click', (event) => {
+	console.log(event.target);
+});
+
 toggleInfo.addEventListener('click', () => {
 if (infoDiv.style.display == 'none') {
 	toggleInfo.textContent = 'Hide info';
