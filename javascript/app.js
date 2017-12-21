@@ -15,6 +15,14 @@ infoDiv.addEventListener('mouseout', () => {
 	listItems.textContent = listItems.textContent.toLowerCase();
 });*/
 
+listUl.addEventListener('click', (event) => {
+	if (event.target.tagName == 'BUTTON') {
+		let li = event.target.parentNode;
+		let ul = li.parentNode;
+		ul.removeChild(li);
+	}
+})
+
 document.addEventListener('click', (event) => {
 	console.log(event.target);
 });
@@ -29,10 +37,15 @@ if (infoDiv.style.display == 'none') {
 }
 });
 
+descriptionButton.addEventListener('click', () => {
+	descriptionP.innerHTML = descriptionInput.value + ':';
+	descriptionInput.value = '';
+});
+
 addItemButton.addEventListener('click', () => {
 	let ul = document.getElementsByTagName('ul')[0];
 	let li = document.createElement('li');
 	li.textContent = addItemInput.value;
 	ul.appendChild(li);
 	addItemInput.value = '';
-})
+});
