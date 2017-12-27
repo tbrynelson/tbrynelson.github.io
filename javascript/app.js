@@ -4,7 +4,7 @@ const input = document.querySelector('input.description');
 const p = document.querySelector('p.description');
 const descriptionButton = document.querySelector('button.description');
 const addItemInput = document.querySelector('input.addItemInput');
-const addItemButton = document.querySelector('input.addItemButton');
+const addItemButton = document.querySelector('button.addItemButton');
 const listUl = infoDiv.querySelector('ul');
 
 /*infoDiv.addEventListener('mouseover', () => {
