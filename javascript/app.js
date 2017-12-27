@@ -5,7 +5,7 @@ const p = document.querySelector('p.description');
 const button = document.querySelector('button.description');
 const addItemInput = document.querySelector('input.addItemInput');
 const addItemButton = document.querySelector('input.addItemButton');
-
+const listUl = listDiv.querySelector('ul');
 
 /*infoDiv.addEventListener('mouseover', () => {
 	listItems.textContent = listItems.textContent.toUpperCase();
