@@ -19,7 +19,7 @@ function attachListItemButtons(li) {
 	li.appendChild(down);
 	let remove = document.createElement('button');
 	remove.className = 'remove';
-	remove.textContent = 'remove';
+	remove.textContent = 'Remove';
 	li.appendChild(remove);
 }
 
