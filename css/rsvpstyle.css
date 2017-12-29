@@ -1,0 +1,10 @@
+.responded {
+	transition: 0.4s;
+	text-decoration: underline;
+	text-decoration-color: blue;
+}
+
+.responded label {
+  transition: 0.4s;
+  color: rgba(88, 183, 205, 1);
+}
