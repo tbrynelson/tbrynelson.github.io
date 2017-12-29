@@ -1,7 +1,7 @@
 .responded {
-	transition: 0.4s;
 	text-decoration: underline;
 	text-decoration-color: blue;
+	transition: 0.4s;
 }
 
 .responded label {
