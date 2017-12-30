@@ -27,17 +27,17 @@ form.addEventListener('submit', (e) => {
 	const li = createLI(text);
 	ul.appendChild(li);
 });
-
+  
 ul.addEventListener('change', (e) => {
-	const checkbox = event.target;
-	const checked = checkbox.checked;
-	const listItem = checkbox.parentNode.parentNode;
-
-	if (checked) {
-		listItem.className = 'responded';
-	} else {
-		listItem.className = '';
-	}
+  const checkbox = event.target;
+  const checked = checkbox.checked;
+  const listItem = checkbox.parentNode.parentNode;
+  
+  if (checked) {
+    listItem.className = 'responded';
+  } else {
+    listItem.className = '';
+  }
 });
   
 ul.addEventListener('click', (e) => {
