@@ -17,6 +17,7 @@ function createLI(text) {
 	const removeButton = document.createElement('button');
 	removeButton.textContent = 'remove';
 	label.appendChild(removeButton);
+	return li;
 }
 
 form.addEventListener('submit', (e) => {
