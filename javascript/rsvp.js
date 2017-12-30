@@ -9,8 +9,8 @@ const mainDiv = document.querySelector('.main')
 
 filterLabel.textContent = "Hide unchecked."
 filterCheckbox.type = 'checkbox';
-div.appendChild('filterLabel');
-div.appendChild('filterCheckbox');
+div.appendChild(filterLabel);
+div.appendChild(filterCheckbox);
 mainDiv.insertBefore(div, ul);
 
 filterCheckbox.addEventListener('change', (e) => {
