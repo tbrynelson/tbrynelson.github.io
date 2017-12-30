@@ -25,7 +25,7 @@ form.addEventListener('submit', (e) => {
 	input.value = '';
 	const li = createLI(text);
 	ul.appendChild(li);
-})
+});
 
 ul.addEventListener('change', (e) => {
 	const checkbox = event.target;
@@ -49,4 +49,4 @@ ul.addEventListener('click', (e) => {
 			console.log('edit');
 		}
 	}
-})
+});
