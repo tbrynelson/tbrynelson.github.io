@@ -17,7 +17,7 @@ function createLI(text) {
 	const removeButton = document.createElement('button');
 	removeButton.textContent = 'remove';
 	label.appendChild(removeButton);
-	return li;
+	return li
 }
 
 form.addEventListener('submit', (e) => {
@@ -41,13 +41,14 @@ ul.addEventListener('change', (e) => {
 });
 
 ul.addEventListener('click', (e) => {
-	if (e.target.tagName === 'BUTTON') {
-		if (e.target.textContent === 'remove') {
-			const li = e.target.parentNode;
-			const ul = li.parentNode;
-			ul.removeChild(li);
-		} else if (e.target.textContent === 'edit') {
-			console.log('edit');
-		}
-	}
-});
+  if (e.target.tagName === 'BUTTON') {
+    const button = e.target;
+    const li = button.parentNode;
+    const ul = li.parentNode;
+    if (button.textContent === 'remove') {
+      ul.removeChild(li);
+    } else if (button.textContent === 'edit') { 
+      console.log('edit');
+    }
+  }
+});  
