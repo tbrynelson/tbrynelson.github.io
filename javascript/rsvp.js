@@ -21,11 +21,11 @@ function createLI(text) {
 }
 
 form.addEventListener('submit', (e) => {
-	e.preventDefault();
-	const text = input.value;
-	input.value = '';
-	const li = createLI(text);
-	ul.appendChild(li);
+  e.preventDefault();
+  const text = input.value;
+  input.value = '';
+  const li = createLI(text);
+  ul.appendChild(li);
 });
   
 ul.addEventListener('change', (e) => {
