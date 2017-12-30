@@ -39,7 +39,7 @@ ul.addEventListener('change', (e) => {
 		listItem.className = '';
 	}
 });
-
+  
 ul.addEventListener('click', (e) => {
   if (e.target.tagName === 'BUTTON') {
     const button = e.target;
@@ -51,4 +51,4 @@ ul.addEventListener('click', (e) => {
       console.log('edit');
     }
   }
-});  
+}); 
