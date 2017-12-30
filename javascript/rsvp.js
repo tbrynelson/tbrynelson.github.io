@@ -3,21 +3,21 @@ const input = form.querySelector('input');
 const ul = document.getElementById('invitedList');
 
 function createLI(text) {
-	const li = document.createElement('li');
-	li.textContent = text;
-	const label = document.createElement('label');
-	label.textContent = 'Confirmed';
-	const checkbox = document.createElement('input');
-	checkbox.type = 'checkbox';
-	label.appendChild(checkbox);
-	li.appendChild(label);
-	const editButton = document.createElement('button');
-	editButton.textContent = 'edit';
-	label.appendChild(editButton);
-	const removeButton = document.createElement('button');
-	removeButton.textContent = 'remove';
-	label.appendChild(removeButton);
-	return li;
+  const li = document.createElement('li');
+  li.textContent = text;
+  const label = document.createElement('label');
+  label.textContent = 'Confirmed';
+  const checkbox = document.createElement('input');
+  checkbox.type = 'checkbox';
+  label.appendChild(checkbox);
+  li.appendChild(label);  
+  const editButton = document.createElement('button');
+  editButton.textContent = 'edit';
+  li.appendChild(editButton);
+  const removeButton = document.createElement('button');
+  removeButton.textContent = 'remove';
+  li.appendChild(removeButton);
+  return li;
 }
 
 form.addEventListener('submit', (e) => {
