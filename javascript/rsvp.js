@@ -38,7 +38,7 @@ function createLI(text) {
 	const li = document.createElement('li');
 	li.textContent = text;
 	const label = document.createElement('label');
-	label.textContent = 'Confirmed';
+	label.textContent = ' Confirmed';
 	const checkbox = document.createElement('input');
 	checkbox.type = 'checkbox';
 	label.appendChild(checkbox);
