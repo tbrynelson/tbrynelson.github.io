@@ -17,7 +17,7 @@ html {
 	border-radius: 10px;
 }
 
-#bio, #output, #testGround, #toggleTests {
+#bio, #output, .testGround, #toggleTests {
 	font-family: 'Bree Serif', serif;
 	font-size: 20px;
 	text-align: center;
@@ -25,7 +25,7 @@ html {
 	align-content: center;
 }
 
-#testGround {
+.testGround {
 	display: none;
 }
 
@@ -35,7 +35,6 @@ button {
 	color: black;
 	border: 1px solid #5533FF;
 	width: 100px;
-	align-content: center;
 }
 
 button:hover {

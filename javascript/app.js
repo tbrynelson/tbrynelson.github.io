@@ -1,12 +1,12 @@
 const toggleTests = document.getElementById('toggleTests');
-const testDiv = document.getElementById('testGround');
+const testLinks = document.querySelector('a.testGround');
 
 toggleTests.addEventListener('click', () => {
-	if (testDiv.style.display == 'none') {
+	if (testLinks.style.display == 'none') {
 		toggleTests.textContent = 'Hide.';
-		testDiv.style.display = 'block';
+		testLinks.style.display = 'block';
 	} else {
-		toggleTests.textContent = "Show tests.";
-		testDiv.style.display = 'none';
+		toggleTests.textContent = "Show.";
+		testLinks.style.display = 'none';
 	}
 });
