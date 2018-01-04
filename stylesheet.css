@@ -25,6 +25,10 @@ html {
 	align-content: center;
 }
 
+#testGround {
+	display: none;
+}
+
 button {
 	background-color: white;
 	font-size: 10px;
