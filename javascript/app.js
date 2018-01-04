@@ -1,7 +1,7 @@
 const toggleTests = document.getElementById('toggleTests');
 const testDiv = document.querySelector('#testGround');
 
-toggleTests.addEvenetListener('click', () => {
+toggleTests.addEventListener('click', () => {
 	if (testDiv.style.display == 'none') {
 		toggleTests.textContent = 'Hide.';
 		testDiv.style.display = 'block';
