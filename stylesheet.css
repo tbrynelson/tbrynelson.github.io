@@ -17,7 +17,7 @@ html {
 	border-radius: 10px;
 }
 
-#bio, #output, #testGround {
+#bio, #output, #testGround, #toggleTests {
 	font-family: 'Bree Serif', serif;
 	font-size: 20px;
 	text-align: center;
