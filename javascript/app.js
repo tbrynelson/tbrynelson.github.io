@@ -1,5 +1,5 @@
 const toggleTests = document.getElementById('toggleTests');
-const testLinks = document.querySelector('a.testGround');
+const testLinks = document.querySelector('.testGround');
 
 toggleTests.addEventListener('click', () => {
 	if (testLinks.style.display == 'none') {
