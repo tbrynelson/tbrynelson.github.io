@@ -25,6 +25,17 @@ html {
 	align-content: center;
 }
 
+button {
+	background-color: white;
+	color: black;
+	border: 1px dotted #5533FF;
+}
+
+button:hover {
+	background-color: #5533FF;
+	color: black;
+}
+
 #bio a {
 	text-decoration: none;
 	color: #5533FF;
