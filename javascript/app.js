@@ -6,7 +6,7 @@ toggleTests.addEventListener('click', () => {
 		toggleTests.textContent = 'Hide.';
 		testLinks.style.display = 'block';
 	} else {
-		toggleTests.textContent = "Show.";
+		toggleTests.textContent = 'Show.';
 		testLinks.style.display = 'none';
 	}
 });
