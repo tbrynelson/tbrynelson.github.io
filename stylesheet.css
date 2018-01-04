@@ -27,6 +27,7 @@ html {
 
 button {
 	background-color: white;
+	font-size: 10px;
 	color: black;
 	border: 1px solid #5533FF;
 }
