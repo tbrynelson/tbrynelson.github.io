@@ -1,86 +1,88 @@
-const form = document.getElementById('registrar');
-const input = form.querySelector('input');
-const ul = document.getElementById('invitedList');
-const div = document.createElement('div');
-const filterLabel = document.createElement('label');
-const filterCheckbox = document.createElement('input');
-const mainDiv = document.querySelector('.main')
+document.addEventListener('DOMContentLoaded', () => {
+	const form = document.getElementById('registrar');
+	const input = form.querySelector('input');
+	const ul = document.getElementById('invitedList');
+	const div = document.createElement('div');
+	const filterLabel = document.createElement('label');
+	const filterCheckbox = document.createElement('input');
+	const mainDiv = document.querySelector('.main')
 
 
-filterLabel.textContent = "Hide unchecked."
-filterCheckbox.type = 'checkbox';
-div.appendChild(filterLabel);
-div.appendChild(filterCheckbox);
-mainDiv.insertBefore(div, ul);
+	filterLabel.textContent = "Hide unchecked."
+	filterCheckbox.type = 'checkbox';
+	div.appendChild(filterLabel);
+	div.appendChild(filterCheckbox);
+	mainDiv.insertBefore(div, ul);
 
-filterCheckbox.addEventListener('change', (e) => {
-	const isChecked = e.target.checked;
-	const lis = ul.children;
-	if (isChecked) {
-		for (let i = 0; i < lis.length; i += 1) {
-			let li = lis[i]
-			if (li.className === 'responded') {
-				li.style.display = '';
-			} else {
-				li.style.display = 'none';
-			}
-		}
-	} else {
+	filterCheckbox.addEventListener('change', (e) => {
+		const isChecked = e.target.checked;
+		const lis = ul.children;
+		if (isChecked) {
 			for (let i = 0; i < lis.length; i += 1) {
 				let li = lis[i]
-				li.style.display = '';
+				if (li.className === 'responded') {
+					li.style.display = '';
+				} else {
+					li.style.display = 'none';
+				}
 			}
-		}	
-});
+		} else {
+				for (let i = 0; i < lis.length; i += 1) {
+					let li = lis[i]
+					li.style.display = '';
+				}
+			}	
+	});
 
 
-function createLI(text) {
-	const li = document.createElement('li');
-	li.textContent = text;
-	const label = document.createElement('label');
-	label.textContent = ' Confirmed';
-	const checkbox = document.createElement('input');
-	checkbox.type = 'checkbox';
-	label.appendChild(checkbox);
-	li.appendChild(label);
-	const editButton = document.createElement('button');
-	editButton.textContent = 'edit';
-	li.appendChild(editButton);
-	const removeButton = document.createElement('button');
-	removeButton.textContent = 'remove';
-	li.appendChild(removeButton);
-	return li;
-}
-
-form.addEventListener('submit', (e) => {
-	e.preventDefault();
-	const text = input.value;
-	input.value = '';
-	const li = createLI(text);
-	ul.appendChild(li);
-});
-
-ul.addEventListener('change', (e) => {
-	const checkbox = event.target;
-	const checked = checkbox.checked;
-	const listItem = checkbox.parentNode.parentNode;
-
-	if (checked) {
-		listItem.className = 'responded';
-	} else {
-		listItem.className = '';
+	function createLI(text) {
+		const li = document.createElement('li');
+		li.textContent = text;
+		const label = document.createElement('label');
+		label.textContent = ' Confirmed';
+		const checkbox = document.createElement('input');
+		checkbox.type = 'checkbox';
+		label.appendChild(checkbox);
+		li.appendChild(label);
+		const editButton = document.createElement('button');
+		editButton.textContent = 'edit';
+		li.appendChild(editButton);
+		const removeButton = document.createElement('button');
+		removeButton.textContent = 'remove';
+		li.appendChild(removeButton);
+		return li;
 	}
-});
 
-ul.addEventListener('click', (e) => {
-  if (e.target.tagName === 'BUTTON') {
-    const button = e.target;
-    const li = button.parentNode;
-    const ul = li.parentNode;
-    if (button.textContent === 'remove') {
-      ul.removeChild(li);
-    } else if (button.textContent === 'edit') { 
-      console.log('edit');
-    }
-  }
-});  
+	form.addEventListener('submit', (e) => {
+		e.preventDefault();
+		const text = input.value;
+		input.value = '';
+		const li = createLI(text);
+		ul.appendChild(li);
+	});
+
+	ul.addEventListener('change', (e) => {
+		const checkbox = event.target;
+		const checked = checkbox.checked;
+		const listItem = checkbox.parentNode.parentNode;
+
+		if (checked) {
+			listItem.className = 'responded';
+		} else {
+			listItem.className = '';
+		}
+	});
+
+	ul.addEventListener('click', (e) => {
+	  if (e.target.tagName === 'BUTTON') {
+	    const button = e.target;
+	    const li = button.parentNode;
+	    const ul = li.parentNode;
+	    if (button.textContent === 'remove') {
+	      ul.removeChild(li);
+	    } else if (button.textContent === 'edit') { 
+	      console.log('edit');
+	    }
+	  }
+	});  
+});

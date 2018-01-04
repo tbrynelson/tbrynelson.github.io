@@ -1,5 +1,5 @@
-const toggleInfo = document.getElementById('toggleInfo');
-const infoDiv = document.querySelector('#info');
+const toggleTests = document.getElementById('toggleTests');
+const testDiv = document.querySelector('#testGround');
 const input = document.querySelector('input.description');
 const p = document.querySelector('p.description');
 const descriptionButton = document.querySelector('button.description');
@@ -65,13 +65,13 @@ document.addEventListener('click', (event) => {
 	console.log(event.target);
 });
 
-toggleInfo.addEventListener('click', () => {
-if (infoDiv.style.display == 'none') {
-	toggleInfo.textContent = 'Hide info';
-	infoDiv.style.display = 'block';
+toggleTests.addEventListener('click', () => {
+if (testDiv.style.display == 'none') {
+	toggleTests.textContent = 'Hide info';
+	testDiv.style.display = 'block';
 } else {
-	toggleInfo.textContent = 'Show info';
-	infoDiv.style.display = 'none';
+	toggleTests.textContent = 'Show info';
+	testDiv.style.display = 'none';
 }
 });
 
