@@ -11,24 +11,19 @@ html {
 	max-width: 400px;
 	margin: 0 auto;
 }
-
 #about img {
 	max-width: 100%;
 	border-radius: 10px;
 }
-
-#bio, #output, .testGround, #toggleTests {
-	font-family: 'Bree Serif', serif;
+#bio, .testGround, #toggleTests {
+	font-family: 'BRee Serif', serif;
 	font-size: 20px;
 	text-align: center;
 	color: #000000;
-	align-content: center;
 }
-
 .testGround {
 	display: none;
 }
-
 button {
 	background-color: white;
 	font-size: 10px;
@@ -36,24 +31,19 @@ button {
 	border: 1px solid #5533FF;
 	width: 100px;
 }
-
 button:hover {
 	background-color: #5533FF;
 }
-
 button:active {
 	background-color: #5544FF;
 }
-
 button:focus {
 	outline: none;
 }
-
 #bio a {
 	text-decoration: none;
 	color: #5533FF;
 }
-
 @media only screen 
   and (min-device-width: 375px) 
   and (max-device-width: 667px) 
