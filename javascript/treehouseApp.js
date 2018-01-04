@@ -1,11 +1,11 @@
-const toggleTests = document.getElementById('toggleTests');
-const testDiv = document.querySelector('#testGround');
+const toggleInfo = document.getElementById('toggleInfo');
+const infoDiv = document.querySelector('#info');
 const input = document.querySelector('input.description');
 const p = document.querySelector('p.description');
 const descriptionButton = document.querySelector('button.description');
 const addItemInput = document.querySelector('input.addItemInput');
 const addItemButton = document.querySelector('button.addItemButton');
-const listUl = testDiv.querySelector('ul');
+const listUl = infoDiv.querySelector('ul');
 const lis = listUl.children;
 
 function attachListItemButtons(li) {
@@ -19,7 +19,7 @@ function attachListItemButtons(li) {
 	li.appendChild(down);
 	let remove = document.createElement('button');
 	remove.className = 'remove';
-	remove.textContent = 'Remove';
+	remove.textContent = 'remove';
 	li.appendChild(remove);
 }
 
@@ -65,13 +65,13 @@ document.addEventListener('click', (event) => {
 	console.log(event.target);
 });
 
-toggleTests.addEventListener('click', () => {
-if (testDiv.style.display == 'none') {
-	toggleTests.textContent = 'Hide info';
-	testDiv.style.display = 'block';
+toggleInfo.addEventListener('click', () => {
+if (infoDiv.style.display == 'none') {
+	toggleInfo.textContent = 'Hide info';
+	infoDiv.style.display = 'block';
 } else {
-	toggleTests.textContent = 'Show info';
-	testDiv.style.display = 'none';
+	toggleInfo.textContent = 'Show info';
+	infoDiv.style.display = 'none';
 }
 });
 
