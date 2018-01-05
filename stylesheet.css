@@ -44,7 +44,8 @@ button:focus {
 	outline: none;
 }
 #bio a {
-	text-decoration: none;
+	text-decoration-style: wavy;
+	text-decoration: underline;
 	color: #5533FF;
 }
 @media only screen 
