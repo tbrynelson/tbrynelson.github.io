@@ -16,6 +16,11 @@ html {
 	border-radius: 10px;
 	box-shadow: 3px 3px 2px grey;
 }
+#about h3 {
+	float: right;
+	transform: rotate(90deg);
+
+}
 #bio, .testGround, #toggleTests {
 	font-family: 'Bree Serif', serif;
 	font-size: 20px;
