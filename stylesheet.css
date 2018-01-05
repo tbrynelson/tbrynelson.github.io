@@ -44,9 +44,12 @@ button:focus {
 	outline: none;
 }
 #bio a {
-	text-decoration-style: wavy;
-	text-decoration: underline;
+	text-decoration: none;
 	color: #5533FF;
+}
+
+#bio a:hover {
+	text-decoration: underline;
 }
 @media only screen 
   and (min-device-width: 375px) 
