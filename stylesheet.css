@@ -18,6 +18,7 @@ html {
 }
 #about h3 {
 	float: right;
+	width: 100px;
 	transform: rotate(90deg);
 
 }
