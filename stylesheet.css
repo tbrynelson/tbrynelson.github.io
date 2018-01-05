@@ -16,10 +16,9 @@ html {
 	border-radius: 10px;
 	box-shadow: 3px 3px 2px grey;
 }
-#about h3 {
+#about p {
+	position: absolute;
 	float: right;
-	width: 200px;
-	transform: rotate(90deg);
 
 }
 #bio, .testGround, #toggleTests {
