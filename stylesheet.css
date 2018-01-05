@@ -23,6 +23,7 @@ html {
 }
 .testGround {
 	display: none;
+	text-decoration: none;
 }
 button {
 	display: block;
