@@ -17,13 +17,16 @@ html, body {
 	max-width: 100%;
 	border-radius: 10px;
 	box-shadow: 3px 3px 2px grey;
+	border-style: solid;
+	border-width: 1px;
 }
 #about span {
-	font-family: 'Bree Serif', serif;
+	font-family: 'Futura';
+	color: #FFF;
 	width: 120px;
-	-webkit-transform-origin: 231px 90px;
+	-webkit-transform-origin: 230px 90px;
 	display: inline-block;
-	background-image: linear-gradient(to bottom left, darkblue, blue, lightblue);
+	background-image: linear-gradient(to bottom left, #401aff, #5533FF, #6a4dff);
 	-webkit-transform: rotate(90deg);
 	text-align: center;
 	border-radius: -50px;
