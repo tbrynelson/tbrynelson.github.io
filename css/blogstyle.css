@@ -1,0 +1,102 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+	background-color: #fff;
+	margin: 30px;
+}
+
+h1, h2, p, div {
+	margin-left: 10%;
+}
+
+img {
+	border-radius: 64px;
+}
+
+p.menu {
+	text-align: right;
+}
+
+a {
+	color: blue;
+	text-decoration: none;
+}
+
+label {
+	margin-top: 30px;
+	display: block;
+	text-transform: uppercase;
+	color: #5533FF;
+	letter-spacing: 2px;
+}
+
+input, textarea {
+	width: 100%;
+	font-size: 18px;
+	border-radius: 5px;
+	border: 1px solid #cdcfcf;
+	padding: 10px;
+	color: #333;
+	background-color: #f6f8f8;
+}
+
+textarea {
+	height: 200px;
+}
+
+button {
+	background: #6388a4;
+	border: none;
+	border-radius: 5px;
+	color: #fff;
+	font-size: 15px;
+	padding: 10px 20px;
+	cursor: pointer;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+.blogPage-title {
+	letter-spacing: 2px;
+}
+
+#blogTitlePreview {
+	font-family: serif;
+	font-size: 40px;
+	text-transform: uppercase;
+}
+
+#blogContentPreview {
+	line-height: 25px;
+	color: #666;
+	font-family: serif;
+	font-size: 18px;
+}
+
+#flashMessage {
+	color: white;
+	background-color: #5533FF;
+	padding: 10px;
+	display: block;
+	width: calc(100% - 250px);
+	margin-bottom: 20px;
+}
+
+.blogNewPost {
+	float: left;
+	width: 30%;
+}
+
+.blogPreviewArea {
+	float: left;
+	width: 40%;
+	margin-top: 70px;
+	margin-left: 135px;
+	min-height: 330px;
+	background-color: #f6f8f8;
+	border-radius: 3.5%;
+}
