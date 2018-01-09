@@ -2,23 +2,25 @@ body {
 	background: #325bff;
 	background-size: 300px auto;
 	font-family: 'Ranga';
+	padding: 100px 0;
 }
 button {
 	background: #FF754B;
 	border: none;
 	cursor: pointer;
 	font-family: 'Ranga';
-	font-size: 44px;
+	font-size: 58px;
 	color: #FFF;
-
+	padding: 5px;
 }
+
 .spoiler {
 	background: #FF754B;
-	width: 300px;
+	width: 400px;
 	margin: 0px auto 20px;
 	border-radius: 1px;
 	text-align: center;
-	font-size: 44px;
+	font-size: 58px;
 	border-radius: 25px;
 	border: 1px solid black;
 	box-shadow: 1px 1px 1px black;
@@ -28,4 +30,17 @@ button {
 	color: #FFF;
 	display: block;
 	padding: 5px;
+}
+
+.spoiler:hover {
+	background-color: #FFF;
+}
+
+.spoiler:hover button {
+	background-color: #FFF;
+	color: #000;
+}
+
+.spoiler:hover span {
+	color: #000;
 }
