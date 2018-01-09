@@ -1,6 +1,7 @@
 $('#flashMessage').hide();
 
-$('#previewButton').click(function() {
+
+$('#previewButton').on('click', function() {
 	const title = $('#blogTitleInput').val();
 	const content = $('#blogContentInput').val();
 

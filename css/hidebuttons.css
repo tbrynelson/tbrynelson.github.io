@@ -1,0 +1,31 @@
+body {
+	background: #325bff;
+	background-size: 300px auto;
+	font-family: 'Ranga';
+}
+button {
+	background: #FF754B;
+	border: none;
+	cursor: pointer;
+	font-family: 'Ranga';
+	font-size: 44px;
+	color: #FFF;
+
+}
+.spoiler {
+	background: #FF754B;
+	width: 300px;
+	margin: 0px auto 20px;
+	border-radius: 1px;
+	text-align: center;
+	font-size: 44px;
+	border-radius: 25px;
+	border: 1px solid black;
+	box-shadow: 1px 1px 1px black;
+}
+
+.spoiler span {
+	color: #FFF;
+	display: block;
+	padding: 5px;
+}
