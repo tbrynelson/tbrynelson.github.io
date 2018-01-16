@@ -30,11 +30,12 @@ roomSon.onreadystatechange = function () {
 			} else {
 				roomsHTML += '<li class="empty">';
 			}
-		}	roomsHTML += rooms[i].room;
+			roomsHTML += rooms[i].room;
 			roomsHTML += '</li>';
-	}
+		}
 	roomsHTML += '</ul>';
 	document.getElementById('roomList').innerHTML = roomsHTML;
+	}
 };
 roomSon.open('GET', '../data/rooms.json');
 roomSon.send();
