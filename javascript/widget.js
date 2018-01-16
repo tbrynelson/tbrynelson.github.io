@@ -35,7 +35,6 @@ roomSon.onreadystatechange = function () {
 	}
 	roomsHTML += '</ul>';
 	document.getElementById('roomList').innerHTML = roomsHTML;
-}
-
+};
 roomSon.open('GET', '../data/rooms.json');
 roomSon.send();
