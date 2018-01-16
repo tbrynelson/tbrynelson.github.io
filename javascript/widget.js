@@ -1,6 +1,6 @@
 const roomSon = new XMLHttpRequest();
 roomSon.onreadystatechange = function () {
-	if (roomSon.readystate === 4) {
+	if (roomSon.readyState === 4) {
 		const rooms = JSON.parse(roomSon.responseText);
 		const roomsHTML = '<ul class="rooms">';
 		for (let i = 0; i < rooms.length; i += 1) {
