@@ -1,9 +1,9 @@
-const roomSon = new XMLHttpRequest();
+var roomSon = new XMLHttpRequest();
 roomSon.onreadystatechange = function () {
 	if (roomSon.readyState === 4) {
-		const rooms = JSON.parse(roomSon.responseText);
-		const roomsHTML = '<ul class="rooms">';
-		for (let i = 0; i < rooms.length; i += 1) {
+		var rooms = JSON.parse(roomSon.responseText);
+		var roomsHTML = '<ul class="rooms">';
+		for (var i = 0; i < rooms.length; i += 1) {
 			if (rooms[i].available === true) {
 				roomsHTML += '<li class="full">';
 			} else {
