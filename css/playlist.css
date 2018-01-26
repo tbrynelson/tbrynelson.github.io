@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=VT323');
+@import url(http://necolas.github.io/normalize.css/3.0.2/normalize.css);
+
+body {
+	background-image: url("../pictures/saturn.jpg");
+	background-size: cover;
+	text-align: center;
+	margin: 100px auto;
+	width: 60%;
+	padding: 0 40px;
+	font-family: 'VT323', monospace;
+	font: 20px;
+}
+
+h1 {
+	font-size: 75px;
+	color: #fca401
+}
+
+div {
+
+}
+
+ol {
+	font-size: 40px;
+	list-style-type: none;
+	padding: 0;
+	margin: 0 0;
+	width: 100%;
+	display: inline-block;
+}
+
+li {
+	color: #fca401;
+	width: 100%;
+	margin: 0;
+	text-align: left;
+}
+
+li span {
+	float: right;
+}
+
+li.current {
+	text-decoration: underline dotted;
+}
+
+button {
+	font-size: 95px;
+	margin: 10px 70px;
+	padding: 0px 0px 0px 0px;
+	border: none;
+	border-radius: 5px;
+	color: #fca401;
+	background: none;
+}
+button:focus {
+	outline:0;
+}
