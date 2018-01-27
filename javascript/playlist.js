@@ -1,7 +1,7 @@
 function Playlist() {
 	this.songs = [];
 	this.nowPlayingIndex = 0;
-}
+};
 
 Playlist.prototype.add = function(song) {
 	this.songs.push(song);
@@ -24,11 +24,11 @@ Playlist.prototype.next = function() {
 		this.nowPlayingIndex = 0;
 	};
 	this.play()
-}
+};
 
 Playlist.prototype.renderInElement = function(list) {
 	list.innerHTML = "";
 	for (var i = 0; i < this.songs.length; i++) {
-		list.innerHTML += this.songs[i].toHTML()
+		list.innerHTML += this.songs[i].toHTML();
 	}
 };
