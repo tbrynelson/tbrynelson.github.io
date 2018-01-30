@@ -1,15 +1,17 @@
-var playlist = new Playlist()
+var playlist = new Playlist();
 
 var hereComesTheSun = new Song("Here Comes the Sun", "The Beatles", "2:54");
 var walkingOnSunshine = new Song("Walking on Sunshine", "Katrina and the Waves", "3:43");
 var spaceOddity = new Song("Space Oddity", "David Bowie", "5:15");
 var rocketMan = new Song("Rocket Man", "Elton John", "4:42");
 
+var twoThousandOne = new Movie("2001: A Space Odyssey", 1968, "2:41:00");
+
 playlist.add(hereComesTheSun);
 playlist.add(walkingOnSunshine);
 playlist.add(spaceOddity);
 playlist.add(rocketMan);
-
+playlist.add(twoThousandOne);
 
 var playlistElement = document.getElementById("playlist");
 
