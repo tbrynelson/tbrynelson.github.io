@@ -35,7 +35,7 @@ var QuizUI = {
 		}
 	},
 	displayProgress: function() {
-		var currentQuestionNumber = quiz.currentQuestionIndex + 1;
+		var currentQuestionNumber = quiz.questionIndex + 1;
 		this.populateIdWithHTML("progress", "Question " + currentQuestionNumber + " of " + quiz.questions.length);
 	}
 }
