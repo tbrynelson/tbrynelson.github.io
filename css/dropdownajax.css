@@ -12,11 +12,15 @@ ul {
 	list-style: none;
 }
 
+p {
+	padding: 0px 0px;
+}
+
 div.finance {
 	background-color: #a3c6ff;
 }
 
-.overlay {
+.butts {
 	border-style: solid;
 	border-width: 1px;
 	border-color: red;

@@ -1,35 +1,34 @@
 $(document).ready( function () {
 	const url = "https://data.wa.gov/resource/dgis-xpmb.json";
 	const dataAPI = {
-			"$limit": 3,
+			"$limit": 2,
 			"$$app_token": "zlKhVnPoU2jYArmMBQlgSSsqt",
 			"$order": "receipt_date DESC",
 			"jurisdiction": "PORT OF VANCOUVER",
 	};
 
 	const financeDiv = $('.finance');
+	let clickBool = true;
 
 	function discloseDown(data) {
 		let candHTML = '<ul>';
 		$.each(data, function(i, filer) {
-			candHTML += '<li>' + filer.filer_name + ' on ' + filer.receipt_date;
-			candHTML += '</br>' + '<a href="' + filer.url + '">Link.</a></li>';
+			candHTML += '<li>' + filer.filer_name;
+			candHTML += '</br>' + filer.report_number;
+			candHTML += '</br>' + filer.receipt_date + '</li>';
 			candHTML += '</br>';
 		});
 		candHTML += '</ul>';
-		financeDiv.html(candHTML);
-	};
-
-	function classSwitch(elmt) {
-		$(elmt).siblings('img').removeClass('selected');
-		$(elmt).toggleClass('selected');
+		$('.finance').html(candHTML);
 	};
 
 	$('.elections').on('click', function() {
-		classSwitch(this);
+		$(this).siblings('img').removeClass('selected');
+		$(this).toggleClass("selected");
 		let jorisdiction = $(this).data('jurisdiction');
+		dataAPI['jurisdiction'] = jorisdiction;
 		if (!$(this).hasClass('selected')) {
-			financeDiv.html('');
+			$('.finance').html('');
 		} else {
 			dataAPI['jurisdiction'] = jorisdiction;
 			$.getJSON(url, dataAPI, discloseDown);
@@ -37,11 +36,11 @@ $(document).ready( function () {
 	});
 
 	$('.elections').mouseover(function() {
-		$(this).addClass("overlay");
+		$(this).addClass("butts");
 	});
 
 	$('.elections').mouseout(function() {
-		$(this).removeClass("overlay");
+		$(this).removeClass("butts");
 	});
 
 });
