@@ -13,13 +13,12 @@ $(document).ready( function () {
 	function discloseDown(data) {
 		let candHTML = '<ul>';
 		$.each(data, function(i, filer) {
-			candHTML += '<li>' + filer.filer_name;
-			candHTML += '</br>' + filer.report_number;
-			candHTML += '</br>' + filer.receipt_date + '</li>';
+			candHTML += '<li>' + filer.filer_name + ' on ' + filer.receipt_date;
+			candHTML += '</br>' + '<a href="' + filer.url + '">Link.</a></li>';
 			candHTML += '</br>';
 		});
 		candHTML += '</ul>';
-		$('.finance').html(candHTML);
+		financeDiv.html(candHTML);
 	};
 
 	$('.elections').on('click', function() {
