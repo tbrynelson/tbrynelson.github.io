@@ -1,29 +1,28 @@
-div.jurisdictions {
+div {
 	width: 100%;
-	background-color: gray;
 	overflow: auto;
 }
 
-ul {
+.jurisdictions ul {
 	margin: 0;
 	padding: 0;
 	list-style-type: none;
 }
 
-ul li {
+.jurisdictions ul li {
 	position: relative;
 	float: left;
 	width: 20%;
 }
 
-ul li img {
+.jurisdictions img {
 	position: relative;
 	display: block;
 	width: 100%;
 	height: 200px;
 }
 
-li span {
+span {
 	position: absolute;
 	display: block;
 	text-align: center;
@@ -41,6 +40,32 @@ li span {
 	font-size: 20px;
 }
 
-li span:hover {
+span:hover {
 	opacity: 1;
+}
+
+.selected img {
+	border-color: red;
+}
+
+.finances {
+	font-family: Times New Roman;
+	overflow: auto;
+	margin-top: 30px;
+	text-align: center;
+	height: 220px;
+}
+
+.finances p {
+	padding-top: 60px;
+}
+
+.finances li {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	list-style-type: none;
+}
+
+.source {
+	margin-top: 0px;
+	text-align: center;
 }
