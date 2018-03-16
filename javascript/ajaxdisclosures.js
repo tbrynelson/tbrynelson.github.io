@@ -12,14 +12,16 @@ $(document).ready( function () {
 	function discloseDown(data) {
 		let candHTML = '<ul>';
 		$.each(data, function(i, filer) {
-			candHTML += '<li>' + filer.filer_name + ' on ' + filer.receipt_date;
+			var a = filer.filer_name.split(' ');
+			var first = a.slice(1).join(' ');
+			var last = a[0];
+			candHTML += '<li>' + first + ' ' + last + ' received a disclosure on ' + moment(filer.receipt_date).format('MMMM D, YYYY');
 			candHTML += '</br>' + '<a href="' + filer.url + '">Link.</a></li>';
 			candHTML += '</br>';
 		});
 		candHTML += '</ul>';
 		financeDiv.html(candHTML);
 	};
-
 
 	function classSwitch(elmt) {
 		$(elmt).siblings('li').removeClass('selected');
