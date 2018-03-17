@@ -1,3 +1,8 @@
+h1 {
+	text-align: center;
+	font-family: Raleway;
+}
+
 div {
 	width: 100%;
 	overflow: auto;
@@ -49,11 +54,11 @@ span:hover {
 }
 
 .finances {
-	font-family: Times New Roman;
+	font-family: Raleway;
 	overflow: auto;
 	margin-top: 30px;
 	text-align: center;
-	height: 220px;
+	height: 280px;
 }
 
 .finances p {
@@ -61,8 +66,17 @@ span:hover {
 }
 
 .finances li {
-	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 	list-style-type: none;
+}
+
+.finances a {
+	text-decoration: none;
+	font-weight: bold;
+	color: black;
+}
+
+.finances a:hover {
+	border-bottom: dotted 1px black;
 }
 
 .source {
