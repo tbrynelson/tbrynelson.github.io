@@ -49,10 +49,6 @@ span:hover {
 	opacity: 1;
 }
 
-.selected img {
-	border-color: red;
-}
-
 .finances {
 	font-family: Raleway;
 	overflow: auto;
